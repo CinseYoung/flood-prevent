@@ -1,0 +1,92 @@
+[
+  {
+      "title": "档案管理", 
+      "url": "/record/gl/dz", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr.png",
+      "children":[
+        { "title": "电子档案", 
+          "url": "/record/gl/dz", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        }, { "title": "纸质档案", 
+          "url": "/record/gl/zz", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        }
+      ]
+  },
+  {
+    "title": "档案借阅", 
+    "url": "/record/jy/zz", 
+    "tp": "1", 
+    "imgSrc": "assets/recode/mr.png",
+    "children":[
+      { "title": "档案借阅", 
+        "url": "/record/jy/zz", 
+        "tp": "1", 
+        "imgSrc": "assets/recode/mr2.png"
+      }, { "title": "档案授权", 
+        "url": "/record/jy/dz", 
+        "tp": "1", 
+        "imgSrc": "assets/recode/mr2.png"
+      }
+    ]
+},{
+  "title": "档案类型", 
+  "url": "/record/lx/ds", 
+  "tp": "1", 
+  "imgSrc": "assets/recode/mr.png",
+  "children":[
+    { "title": "档案室管理", 
+      "url": "/record/lx/ds", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }, { "title": "档案类别", 
+      "url": "/record/lx/dlx", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }, { "title": "项目名称管理", 
+      "url": "/record/lx/xm", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }
+  ]
+},{
+  "title": "统计分析", 
+  "url": "/record/tj/dz", 
+  "tp": "1", 
+  "imgSrc": "assets/recode/mr.png",
+  "children":[
+    { "title": "电子档案统计", 
+      "url": "/record/tj/dz", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }, { "title": "纸质档案统计", 
+      "url": "/record/tj/zz", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }
+  ]
+},{
+  "title": "系统管理", 
+  "url": "/record/sys/rz", 
+  "tp": "1", 
+  "imgSrc": "assets/recode/mr.png",
+  "children":[
+    { "title": "日志管理", 
+      "url": "/record/sys/rz", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }, { "title": "电子回收站", 
+      "url": "/record/sys/dzhsz", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }, { "title": "纸质回收站", 
+      "url": "/record/sys/zzhsz", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }
+  ]
+}
+]

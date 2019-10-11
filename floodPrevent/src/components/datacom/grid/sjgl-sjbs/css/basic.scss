@@ -1,0 +1,36 @@
+.el-table{
+  margin-left: 5px;margin-top: 3px;
+}
+.gr-datagrid {
+  height: 90%;
+  height: calc(100% - 110px);
+  background: #fff;
+  margin: 3px 0 3px 5px;
+  padding: 0 17px;
+  border-bottom: solid 1px #d9d9d9;
+  .gr-tag {
+    line-height: 46px;
+    .data-title {
+      background: url("../../../../../assets/data-title.png") no-repeat center left;
+      padding-left: 20px;
+      font-size: 14px;
+    }
+    .el-button--primary {
+      color: #fff;
+      background: #409eff;
+      border-color: #409eff;
+      margin-left: 15px;
+    }
+    .el-button--primary:hover {
+      background-color: rgb(193, 218, 243);
+      border-color: rgb(121, 184, 248);
+      color: #000;
+    }
+  }
+}
+.upload-demo{
+  display: inline-block;
+}
+.el-button{
+  margin-left: 15px;
+}

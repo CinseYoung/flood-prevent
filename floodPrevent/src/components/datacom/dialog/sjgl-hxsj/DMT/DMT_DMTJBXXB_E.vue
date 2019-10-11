@@ -1,0 +1,115 @@
+<template>
+  <el-form
+    :model="dataForm"
+    label-width="120px"
+    ref="dataForm"
+    size="mini"
+    :rules="rules"
+    style="margin-right: 20px"
+    :inline="true"
+    label-position="right"
+  > 
+    <el-form-item v-for="(val, ind) of inputLabels" :key="ind" :label="val.label" :prop="val.propsname">
+      <el-input v-model="dataForm[val.propsname]" style="width:200px"></el-input>
+    </el-form-item>
+    <!-- <el-form-item label="多媒体对象ID" prop="DMTDXID">
+      <el-input v-model="dataForm.DMTDXID" style="width:200px"></el-input>
+    </el-form-item>
+    <el-form-item label="标题" prop="BT">
+      <el-input v-model="dataForm.BT" style="width:200px"></el-input>
+    </el-form-item> -->
+    <el-form-item label="是否消亡" prop="SFXW">
+      <el-select filterable clearable  v-model="dataForm.SFXW"   style="width:200px">
+        <el-option
+          value="1"
+          label="是"
+        ></el-option>
+        <el-option
+          value="0"
+          label="否"
+        ></el-option>
+      </el-select>
+    </el-form-item>
+    <el-form-item label="数据源说明" prop="BZ">
+      <el-input
+        v-model="dataForm.BZ"
+        type="textarea"
+        :autosize="{ minRows: 4, maxRows: 6}"
+        style="width:530px;"
+      ></el-input>
+    </el-form-item>
+  </el-form>
+</template>
+<script>
+const inputLabels = [
+  {
+    label: 'GUID', propsname: 'GUID'
+  },
+  {
+    label: '多媒体对象ID', propsname: 'DMTDXID'
+  },
+  {
+    label: '标题', propsname: 'BT'
+  },
+  {
+    label: '多媒体编码', propsname: 'DMTBM'
+  },
+  {
+    label: '关键词', propsname: 'GJC'
+  },
+  {
+    label: '文件采集人', propsname: 'WJCJR'
+  },
+  {
+    label: '编制人员', propsname: 'BZRY'
+  }
+]
+export default {
+  data() {
+    return {
+      inputLabels,
+      dataForm: {
+        addtime: '{datetime}',
+        timestamp: '{datetime}'
+      },
+      rules: {
+        DXID: [
+          { required: true, message: '请填写名称', trigger: 'blur' }
+        ],
+        DXMC: [
+          { required: true, message: '请填写数据类型', trigger: 'blur' }
+        ],
+        DXBM: [
+          { required: true, message: '请填写数据类型', trigger: 'blur' }
+        ],
+        SFXW: [
+          { required: true, message: '请选择', trigger: 'change' }
+        ]
+      }
+    }
+  },
+  props: {
+    data: { type: Object, default: () => {} }
+  },
+  mounted() {
+    this.dataForm = Object.assign(this.data)
+    // for (var key in this.data) {
+    //   this.dataForm[key] = this.data[key]
+    // }
+  },
+  methods: {
+    submitForm() {
+      console.log(this.dataForm)
+      this.$refs.dataForm.validate(valid => {
+        if (!valid) {
+          return false
+        }
+        // this.login()
+      })
+    },
+    resetForm() {
+      this.$refs.dataForm.resetFields()
+    }
+  }
+}
+</script>

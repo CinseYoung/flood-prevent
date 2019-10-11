@@ -1,0 +1,45 @@
+{
+  "comment": "应用管理",
+  "yyglArray|45": [
+    {
+      "yymc": "容器云",
+      "zt": "正常 ",
+      "fwdz": "www.baidu.com",
+      "cjsj": "@datetime()",
+      "sls": "89/100"
+    }
+  ],
+  "comment1": "服务管理",
+  "fwglArray|45": [
+    {
+      "fwmc": "容器云",
+      "fwzt": "正常",
+      "glsls": "98",
+      "fwdz": "www.baidu.com"
+    }
+  ],
+  "comment2": "镜像仓库",
+  "jxckArray|45": [
+    {
+      "ckmc": "容器云",
+      "rzfwq": "www.baidu.com",
+      "fwfs": "ip",
+      "cjsj": "@datetime()",
+      "zt": "正常"
+    }
+  ],
+  "comment3": "存储管理",
+  "ccglArray|45": [
+    {
+      "zjip": "www.baidu.com",
+      "zjzt": "正常",
+      "pop": "pop",
+      "cpu": "core i5",
+      "ncdx": "256g",
+      "images": "images.png",
+      "bb": "6400u",
+      "zjlx": "一体机",
+      "cjsj": "@datetime()"
+    }
+  ]
+}

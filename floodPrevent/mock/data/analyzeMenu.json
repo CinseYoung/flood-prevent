@@ -1,0 +1,175 @@
+[
+    {
+        "title": "站点分析", 
+        "url": "/analyze/zd", 
+        "tp": "1", 
+        "imgSrc": "assets/recode/mr.png",
+        "children":[
+          { "title":"站点分析",
+            "url":"/analyze/zd",
+            "tp":"1",
+            "imgSrc": "assets/recode/mr2.png"
+          }
+        ]
+    },
+    {
+      "title": "河道水情", 
+      "url": "/analyze/hd/gb", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr.png",
+      "children":[
+        { "title": "水情公报", 
+          "url": "/analyze/hd/gb", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "重要站水情表", 
+          "url": "/analyze/hd/zyz", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "水情简报", 
+          "url": "/analyze/hd/jb", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "河道站超警信息", 
+          "url": "/analyze/hd/cj", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "重要站当日水情", 
+          "url": "/analyze/hd/zyzdr", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "重要站与前一日水情对比", 
+          "url": "/analyze/hd/zyzdb", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "当日水情历史特征值对比", 
+          "url": "/analyze/hd/lstzz", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "主要站水位流量统计表", 
+          "url": "/analyze/hd/zyzsw", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "重要站与历史同期最高对比", 
+          "url": "/analyze/hd/zyzls", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        }
+      ]
+    },
+    {
+      "title": "水库水情", 
+      "url": "/analyze/sk/sksq", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr.png",
+      "children":[
+        { "title": "水库水情表", 
+          "url": "/analyze/sk/sksq", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "主要水库蓄水量变化表", 
+          "url": "/analyze/sk/skxsl", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "重要水库特征值监测", 
+          "url": "/analyze/sk/sktzz", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        }
+      ]
+    },
+    {
+      "title": "雨量分析", 
+      "url": "/analyze/yl/month", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr.png",
+      "children":[
+        { "title": "各区月雨量统计表", 
+          "url": "/analyze/yl/month", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "日雨量统计表", 
+          "url": "/analyze/yl/day", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "小时雨量统计表", 
+          "url": "/analyze/yl/hour", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        }
+      ]
+    },
+    {
+      "title": "水文分析", 
+      "url": "/analyze/sw/dz", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr.png",
+      "children":[
+        { "title": "雨洪对照分析", 
+          "url": "/analyze/sw/dz", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "涨差分析", 
+          "url": "/analyze/sw/zc", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "分流比计算", 
+          "url": "/analyze/sw/flb", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title": "水面线展示", 
+          "url": "/analyze/sw/smx", 
+          "tp": "1", 
+          "imgSrc": "assets/recode/mr2.png"
+        }
+      ]
+    },
+    {
+      "title": "水雨情简报", 
+      "url": "/analyze/bg/gb", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr.png",
+      "children":[
+        { "title":"水情公报",
+          "url":"/analyze/bg/gb",
+          "tp":"1",
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title":"汛期简报",
+          "url":"/analyze/bg/xqjb",
+          "tp":"1",
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title":"水情综合分析",
+          "url":"/analyze/bg/zhfx",
+          "tp":"1",
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title":"水情综述",
+          "url":"/analyze/bg/zs",
+          "tp":"1",
+          "imgSrc": "assets/recode/mr2.png"
+        },
+        { "title":"水情简报",
+          "url":"/analyze/bg/sqjb",
+          "tp":"1",
+          "imgSrc": "assets/recode/mr2.png"
+        }
+      ]
+    }
+  ]

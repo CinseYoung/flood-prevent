@@ -1,0 +1,32 @@
+[
+    {
+        "title": "成果查询",
+        "url": "/riskmap/result",
+        "tp": "1",
+        "imgSrc": "assets/recode/mr.png"
+    },
+    {
+        "title": "洪水过程",
+        "url": "/riskmap/process",
+        "tp": "1",
+        "imgSrc": "assets/recode/mr.png"
+    },
+    {
+        "title": "影响分析",
+        "url": "/riskmap/analysis",
+        "tp": "1",
+        "imgSrc": "assets/recode/mr.png"
+    },
+    {
+        "title": "避险转移",
+        "url": "/riskmap/transfer",
+        "tp": "1",
+        "imgSrc": "assets/recode/mr.png"
+    },
+    {
+        "title": "县级风险图",
+        "url": "/riskmap/county",
+        "tp": "1",
+        "imgSrc": "assets/recode/mr.png"
+    }
+]

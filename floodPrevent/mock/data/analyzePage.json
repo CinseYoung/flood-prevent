@@ -1,0 +1,121 @@
+{
+  "comment": "站点数据",
+  "array|45": [
+    {"station_code":"@id()","station_name":"德阳水库 ","river_name":"拉萨河","sx":"拉萨河","ly":"雅鲁藏布江","longitude":"25","latitude":"40","address":"拉萨","jm_name":"基面名称","id":"行政区划ID","jm_gc":"基面高程","jm_xzz":"基面修正值","station_type":"测站类别","bx_level":"2级","jz_uear":"@datetime()","sb_year":"@datetime()","lsdw":"水利信息中心","xxdw":"水利信息中心","jhdw":"水利信息中心","czab":"测站岸别","czfw":"测站方位","jl":"30km","js_area":"50000","pym":"deiyangshuiku"}
+  ],
+
+  "comment1": "水情公报",
+  "gbArray|45": [
+    {"river_name":"拉萨河","station_name":"德阳水库","sw":"35","ll":"12451","ss":"落","station_num":"605154"}
+  ],
+
+  "comment2": "重要站水情表",
+  "zyzArray|45": [
+    {"station_name":"向家坝","station_num":"605154","sw":"35","swbf":"0.71","ll":"12451","llbf":"654"}
+  ],
+
+  "comment2.1": "设置重要站",
+  "szzyzArray|45": [
+    {"station_name":"向家坝","station_num":"605154"}
+  ],
+
+  "comment3": "水情简报",
+  "jbArray|45": [
+    {"river_name":"金沙江","station_name":"向家坝","sk":"100.08","appear_date":"@datetime()","year_hight":"120.68","appear_year":"2001","year_value":"110.35","month_lowest":"98.25","sk_sw":"105.36","year_value_sw":"115.69","jdjp":"0.89","sk_ll":"26655","appear_date_ll":"@datetime()","year_hight_ll":"45256","appear_year_ll":"1997","year_value_ll":"28888","sk_pjll":"13584","year_value_pjll":"12211","xdjp":"-12.35"}
+  ],
+
+  "comment4": "河道站超警信息",
+  "cjArray|45": [
+    {"river_name":"五郎河","station_name":"向家坝","sw":"1122.08","sw_time":"@datetime","ll":"125","hight_sw":"1522.35","hight_sw_time":"@datetime()","hight_ll":"254","hight_ll_time":"@datetime()","warn_sw":"1452","sp_warn_sw":"0.58","bzsw":"1452.58","sp_bzsw":"1.24","hist_hight_sw":"1458.36","sp_hist":"0.25","dq":"金沙江","station_num":"65545224"}
+  ],
+
+  "comment5_1": "重要站当日水情",
+  "zyzdrArray1|45": [
+    {"station_num":"65545224","station_name":"三峡","sw":"1122.08","ll":"125"}
+  ],
+
+  "comment5_2": "水雨情综合分析",
+  "zyzdrArray2|45": [
+    {"river_name":"金沙江","station_name":"石鼓","sw":"1122.08","ss":"落","ll":"2447","river_name1":"长江","station_name1":"沙市","sw1":"125.08","ss1":"涨","ll1":"24475"}
+  ],
+
+  "comment6": "重要站与前一日水情对比",
+  "zyzdbArray|45": [
+    {"river_name":"五郎河","station_name":"向家坝","sw":"1122.08","sw_db":"-0.24","ll":"125","station_num":"65545224"}
+  ],
+
+  "comment7": "当日水情历史特征值对比",
+  "lstzzArray|45": [
+    {"station_name":"向家坝","time":"@datetime()","sw":"258.08","ll":"8252","warn_sw":"265.6","sp_warn":"-","pro_sw":"265.8","sp_pro":"-","hist_sw":"270.4","sp_high":"-","hight_sw_time":"@datetime()","high_ll":"58448","hight_ll_time":"@datetime()"}
+  ],
+
+  "comment8": "主要站水位流量统计表",
+  "zyzswArray|45": [
+    {"river_name":"金沙江","station_name":"向家坝","sk":"100.08","appear_date":"@datetime()","year_hight":"120.68","appear_year":"2001","year_value":"110.35","month_lowest":"98.25","sk_sw":"105.36","year_value_sw":"115.69","jdjp":"0.89","sk_ll":"26655","appear_date_ll":"@datetime()","year_hight_ll":"45256","appear_year_ll":"1997","year_value_ll":"28888","sk_pjll":"13584","year_value_pjll":"12211","xdjp":"-12.35"}
+  ],
+
+  "comment9": "重要站与前一日水情对比",
+  "zyzlsArray|45": [
+    {"river_name":"五郎河","station_num":"65545224","station_name":"向家坝","sw":"1122.08","hist_sw":"248.68","compare":"-6.68","ll":"6845"}
+  ],
+
+  "comment10_1": "上游供蓄",
+  "topArray|45": [
+    {"sx":"金沙江","river_name":"金沙江中游","sk_name":"梨园","sk_sw":"1586.08","rk":"332","ck":"227","xl":"5.87","ssw":"1605.00","swc":"5.63","xlc":"1.25","xxsw":"1128.80","swc_c":"-4.56","xlc_c":"-2.04","normal":"1618.00","swc_n":"-6.58","xlc_n":"-1.51"}
+  ],
+
+  "comment10_2": "中下游供蓄",
+  "downArray|45": [
+    {"sx":"洞庭湖","river_name":"沅江","sk_name":"凤滩","sk_sw":"1586.08","rk":"332","ck":"227","xl":"5.87","ssw":"1605.00","swc":"5.63","xlc":"1.25","xxsw":"1128.80","swc_c":"-4.56","xlc_c":"-2.04","normal":"1618.00","swc_n":"-6.58","xlc_n":"-1.51"}
+  ],
+
+  "comment10_3": "主要水库表",
+  "mainskArray|45": [
+    {"sx":"金沙江","river_name":"金沙江","station_name":"梨园","sk_sw":"1586.08","rk":"1680","ck":"1570","xsl":"5.876","sw_xun":"3.51","xsl_xun":"0.584","sw_normal":"-6.56","xsl_normal":"-0.686","ssw":"1605.00","xxsw":"1605.00","normal_hight_sw":"1618.00","ss":"↑","station_num":"60101398"}
+  ],
+
+  "comment10_4": "水库群供蓄",
+  "skqArray|45": [
+    {"sx":"金沙江","river_name":"金沙江中游","sk_name":"梨园","sk_sw":"1586.08","rk":"332","ck":"227","xl":"5.87","ssw":"1605.00","swc":"5.63","xlc":"1.25","xxsw":"1128.80","swc_c":"-4.56","xlc_c":"-2.04","normal":"1618.00","swc_n":"-6.58","xlc_n":"-1.51"}
+  ],
+
+  "comment10_5": "全部站",
+  "stationArray|45": [
+    {"sx":"金沙江","river_name":"金沙江","station_name":"梨园","sk_sw":"1586.08","rk":"1680","ck":"1570","xsl":"5.876","sw_xun":"3.51","xsl_xun":"0.584","sw_normal":"-6.56","xsl_normal":"-0.686","ssw":"1605.00","xxsw":"1605.00","normal_hight_sw":"1618.00","ss":"↑","station_num":"60101398"}
+  ],
+
+  "comment11": "主要水库蓄水量变化表",
+  "skxslArray|45": [
+    {"sx":"金沙江","river_name":"金沙江中游","sk_name":"梨园","sk_sw":"1614.08","today_sw":"1608.60","xl-month":"-0.758"}
+  ],
+
+  "comment12": "主要水库蓄水量变化表",
+  "sktzzArray|45": [
+    {"river_name":"金沙江中游","sk":"梨园水库","normal_sw":"1618","death_sw":"1605","smallest_ll":"","hightest":"1614.24","lowest":"1604.75","month_start":"1605.46","month_end":"1614.30","bigest_rk":"3880","smallest_rk":"2350","average_rk":"2970","bigest_ck":"3980","smallest_ck":"2110","average_ck":"2930","xs_change":"1.1561"}
+  ],
+
+  "comment13": "各区月雨量统计表",
+  "ylmonthArray|45": [
+    {"fq_name":"金沙江","all_station_num":"@integer(0, 500)","lose_station":"@integer(0, 20)","biggset_station":"温泉","biggset_num":"658251548","biggset_yl":"@float(100, 500, 2, 2)","average_yl":"@float(50, 200, 2, 2)"}
+  ],
+
+  "comment13-1": "日雨量统计表",
+  "yldayArray|45": [
+    {"station_num":"95945665","station_name":"金沙江","tjsj":"@datetime","yl_whole":"@integer(0, 100)","belong_hl":"金沙江","belong_dq":"拉萨市","bxdj":"2级"}
+  ],
+
+  "comment13-2": "小时雨量统计表",
+  "ylhourArray|45": [
+    {"station_num":"95945665","station_name":"金沙江","tjsj":"@datetime","yl_whole":"@integer(0, 30)","belong_hl":"金沙江","belong_dq":"拉萨市","bxdj":"2级"}
+  ],
+
+  "comment14": "雨洪对照分析",
+  "swdzArray|26": [
+    {"time":"@datetime()","sjyl":"@integer(0, 100)","jyl":"@integer(0, 100)","sjll":"@integer(0, 100)","jsll":"@integer(0, 100)"}
+  ],
+
+  "comment15": "水面线展示",
+  "smxArray|10": [
+    {"time":"@datetime()","hksw":"@integer(0, 30)","hsgsw":"@integer(0, 30)","mtzsw":"@integer(0, 30)","dtsw":"@integer(0, 30)"}
+  ]
+}

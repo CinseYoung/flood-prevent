@@ -1,0 +1,15 @@
+.el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #409eff;
+  border-color: #409eff;
+}
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #409eff;
+  border-color: #409eff;
+}
+.el-table td {
+  padding: 8px 0;
+}
+.el-tooltip__popper {
+  font-size: 14px;
+  max-width: 50%;
+}

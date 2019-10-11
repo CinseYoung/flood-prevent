@@ -1,0 +1,34 @@
+{
+  "comment": "电子文档数据",
+  "array|15": [
+    {"record_code":"@id()","record_name":"测试档案名称 ","type_name":"档案类型","dq":"拉萨市","xm":"山洪灾害防治","status":"正常","create_time":"@datetime()","creater":"@cname()","remark":"这是备注"}
+  ],
+  "comment": "纸质文档数据",
+  "zzArray|15": [
+    {"record_code":"@id()","record_name":"测试档案名称 ","type_name":"档案类型","region":"拉萨市","project":"山洪灾害防治","archives":"档案室","position":"文档存放位置","status":"正常","create_time":"@datetime()","remark":"这是备注","creater":"@cname()"}
+  ],
+  "comment": "档案室数据",
+  "officeArray|15": [
+    {"office_code":"@id()","office_name":"档案室名称","office_manager":"档案室管理员","office_position":"档案室所在位置","remark":"这是备注","storable_number":"@integer(0, 2000)","current_number":"@integer(100, 1000)"}
+  ],
+  "comment": "档案类别数据",
+  "typeArray|15": [
+    {"type_code":"@id()","type_name":"类别名称","type_remark":"类别备注","creater":"创建人","create_time":"@datetime()","status":"启用"}
+  ],
+  "comment": "档案日志数据",
+  "logArray|15": [
+    {"record_name":"文档名称","operator":"操作人","operation_time":"@datetime()","operation_type":"添加","status":"成功","operation_menu":"操作菜单","remark":"这是备注"}
+  ],
+  "comment": "借阅档案数据",
+  "lendArray|15": [
+    {"lender":"@cname()","lend_period":"@datetime()","lend_time":"@datetime()","operator":"@cname()","operation_time":"@datetime()","remark":"申请说明"}
+  ],
+  "comment": "授权档案数据",
+  "authArray|15": [
+    {"record_code":"@id()","record_name":"档案名称","author":"@cname()","operator":"@cname()","auth":"添加,查看","operation_time":"@datetime"}
+  ],
+  "comment": "项目数据",
+  "projectArray|15": [
+    {"project_code":"@id()","project_name":"项目名称","unit":"所属单位","remark":"这是备注"}
+  ]
+}

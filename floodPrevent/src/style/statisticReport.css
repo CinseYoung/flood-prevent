@@ -1,0 +1,168 @@
+#statisticReport  {
+    font-size: 13px;
+}
+
+#statisticReport .title {
+    font-size: 24px;
+}
+
+#statisticReport  .gallery {
+    width: 100%;
+    overflow: hidden;
+    height: 188px;
+    display: flex;
+    position: relative;
+    left: 0;
+}
+
+#statisticReport  .gallery-card {
+    padding: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#statisticReport .gallery-card h3 {
+    font-size: 30px;
+    line-height: 80px;
+}
+
+#statisticReport .pre,#statisticReport .next {
+    width: 40px;
+    height: 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ebeef5;
+}
+
+#statisticReport  .pre {
+    border-right: none;
+}
+
+#statisticReport .next {
+    border-left: none;
+}
+
+#statisticReport  .chart_box {
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#statisticReport .tab {
+    width: 200px;
+    height: 160px;
+}
+
+#statisticReport .list-area {
+    width: 40%;
+}
+
+#statisticReport .list {
+    margin-top: 20px;
+}
+
+#statisticReport .btn-active {
+    color: #409eff;
+    margin: 0 10px 10px 10px;
+}
+
+#statisticReport .gray {
+    margin: 0 10px 10px 10px;
+    color: #ccc;
+}
+
+#statisticReport ol {
+    counter-reset: li;
+    margin: 0;
+    padding: 0;
+}
+
+#statisticReport ol>li {
+    font-family: "Lato", sans;
+    font-size: 15px;
+    list-style: none;
+    margin: 0 0 0.5em 1.95em;
+    padding: 0.5em 1em;
+    position: relative;
+}
+
+#statisticReport ol>li:before {
+    background: #5e687e;
+    color: white;
+    content: counter(li);
+    counter-increment: li;
+    font-family: "Bree Serif", serif;
+    line-height: 1.2em;
+    position: absolute;
+    top: 0.4em;
+    left: -1.2em;
+    text-align: center;
+    width: 1.2em;
+    border-radius: 50%;
+}
+
+#statisticReport .time {
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+#statisticReport .bottom {
+    margin-top: 13px;
+    line-height: 12px;
+}
+
+#statisticReport .button {
+    padding: 0;
+    float: right;
+}
+
+#statisticReport .image {
+    width: 100%;
+    display: block;
+}
+
+#statisticReport .clearfix:before,#statisticReport .clearfix:after {
+    display: table;
+    content: "";
+}
+
+#statisticReport .clearfix:after {
+    clear: both
+}
+
+#statisticReport .date-area {
+    display: flex;
+    color: #bbb;
+    position: absolute;
+    right: 40px;
+    top: 0px;
+}
+
+#statisticReport .date-tab {
+    margin: 0 10px;
+}
+
+
+
+#statisticReport .header-title {
+    /* height: 100px; */
+    padding: 0 0 30px;
+}
+
+#statisticReport  #main_content {
+    padding: 10px;
+}
+
+#statisticReport .head-card {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 12px;
+}
+
+#statisticReport .top {
+    margin: 0 20px 20px 20px;
+    display: flex;
+}

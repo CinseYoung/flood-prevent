@@ -1,0 +1,86 @@
+[
+  { "title": "资源目录管理", 
+   "url": "/data/zy/zylx", 
+   "tp": "1", 
+   "imgSrc": "assets/recode/mr.png",
+   "children":[
+    { "title": "资源类型",
+      "url":"/data/zy/zylx",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    },
+    { "title": "资源服务接口",
+      "url":"/data/zy/zyfw",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    },
+    { "title": "资源目录审核",
+      "url":"/data/zy/zysh",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    }
+  ]
+ }, { "title": "数据管理", 
+   "url": "/data/sjgl/sjbs", 
+   "tp": "1", 
+   "imgSrc": "assets/recode/mr.png",
+   "children":[
+    { "title": "数据标识管理",
+      "url":"/data/sjgl/sjbs",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    },
+    { "title": "核心数据管理",
+      "url":"/data/sjgl/hxsj",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    },
+    { "title": "数据备份还原",
+      "url":"/data/sjgl/sjbf",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    }
+  ]
+ }, { "title": "元数据管理", 
+   "url": "/data/zy/xm", 
+   "tp": "1", 
+   "imgSrc": "assets/recode/mr.png"
+ },{ "title": "数据同步管理", 
+   "url": "/data/sjtb/sjgl", 
+   "tp": "1", 
+   "imgSrc": "assets/recode/mr.png",
+   "children":[
+    { "title": "数据源管理",
+      "url":"/data/sjtb/sjgl",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    },
+    { "title": "同步模型管理",
+      "url":"/data/sjtb/mxgl",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    },
+    { "title": "同步任务构建",
+      "url":"/data/sjtb/rwgj",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    }
+  ]
+ },{ "title": "字典管理", 
+   "url": "/data/zd/gl", 
+   "tp": "1", 
+   "imgSrc": "assets/recode/mr.png",
+   "children":[
+    { "title": "字典类型管理",
+      "url":"/data/zd/gl",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    },
+    { "title": "字典内容信息",
+      "url":"/data/zd/xx",
+      "tp":"1",
+      "imgSrc": "assets/recode/mr2.png"
+    }
+  ]
+ }
+]

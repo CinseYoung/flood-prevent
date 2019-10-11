@@ -1,0 +1,182 @@
+.left-risk {
+  width: 360px;
+  color: #666666;
+  background: #fff;
+  border-right: solid 1px #d9d9d9;
+  height: 100%;
+  transition: all 1s;
+}
+
+.left-risk .el-collapse-item__content {
+  width: 360px;
+  padding-bottom: 5px;
+}
+
+.left-risk .item-content {
+  padding-left: 35px;
+}
+
+.left-risk .item-content .span {
+  background: url("../../../assets/riskmark/cb_default.png") no-repeat center left;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.left-risk .item-content .span:hover,
+.left-risk .item-content .spanActive {
+  background: url("../../../assets/riskmark/cb_selected.png") no-repeat center left;
+}
+
+.left-risk .el-scrollbar__wrap {
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.left-risk .item {
+  height: 29px;
+  line-height: 29px;
+  border-bottom: solid 1px #e7e6eb;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.left-risk .item span {
+  display: inline-block;
+  padding: 0;
+  padding-left: 5px;
+}
+
+.left-risk .item .number {
+  width: 20px;
+  text-align: center;
+}
+
+.left-risk .item .icon {
+  margin-left: 15px;
+  background: url("../../../assets/riskmark/A1_small.png") no-repeat center left;
+  padding-left: 20px;
+}
+
+.left-risk .item:hover {
+  background: #f0f0f0;
+}
+
+.left-risk .el-card__body {
+  padding: 0;
+  height: calc(100% - 80px);
+}
+
+.left-risk .el-card {
+  border-width: 0;
+  border-radius: 0px;
+}
+
+.left-risk .el-card__header {
+  background: #f0f0f0;
+  height: 30px;
+  padding: 0 0 0 3px;
+  line-height: 30px;
+}
+
+.left-risk .search {
+  border-bottom: solid 1px #e7e6eb;
+}
+
+.left-risk .search .group {
+  padding: 5px 3px 5px 15px;
+}
+
+.left-risk .search .group .el-form-item--mini.el-form-item {
+  margin-bottom: 10px;
+}
+
+.left-risk .keyword {
+  padding: 5px 3px;
+}
+
+.left-risk .keyword .el-collapse-item__arrow {
+  cursor: pointer;
+}
+
+.left-risk .keyword .el-input-group {
+  width: 272px;
+  margin-right: 10px;
+}
+
+.left-risk .keyword .input-with-select .el-input-group__prepend {
+  background-color: #fff;
+}
+
+.left-risk .el-collapse-item__header {
+  height: 32px;
+  line-height: 32px;
+  padding-left: 3px;
+}
+
+.left-risk .title {
+  width: 100%;
+  background-color: #7ac8ec;
+}
+
+.pageBar {
+  position: absolute;
+  bottom: 10px;
+  left: -4px;
+}
+
+.el-pagination__jump {
+  font-size: 12px !important;
+  margin-left: 12px;
+}
+
+.el-scrollbar {
+  height: calc(100% - 40px);
+}
+
+.el-pagination__editor.el-input {
+  width: 36px;
+}
+
+.el-pagination .btn-prev, .el-pagination .btn-next {
+  padding-right: 4px;
+}
+
+.switchBtn {
+  position: absolute;
+  top: 50%;
+  left: 360px;
+  width: 20px;
+  height: 60px;
+  border: 1px solid #ccc;
+  border-left: none;
+  line-height: 60px;
+  background: #fff;
+  opacity: 0.6;
+  z-index: 1000;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.el-form-item--mini .el-form-item__label {
+  width: 68px;
+}
+
+.hidden {
+  width: 0;
+}
+
+.hidden .switchBtn {
+  left: 0;
+}
+
+.item-content.itemActive {
+  background-color: #7ac8ec;
+}
+
+.map-title {
+  position: absolute;
+  z-index: 999;
+  top: 90px;
+  left: 50%;
+}

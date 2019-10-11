@@ -1,0 +1,22 @@
+[{
+    "title": "监测数据",
+    "url": "/shyjyb/jiance",
+    "tp": "1",
+    "imgSrc": "assets/recode/mr.png"
+}, {
+    "title": "实时预警",
+    "url": "/riskmap/yujing",
+    "tp": "3",
+    "imgSrc": "assets/recode/mr.png"
+}, {
+    "title": "洪水预报",
+    "url": "/riskmap/yubao",
+    "tp": "3",
+    "imgSrc": "assets/recode/mr.png"
+}, {
+    "title": "汛期值守",
+    "url": "/riskmap/zhishou",
+    "tp": "1",
+    "imgSrc": "assets/recode/mr.png"
+}
+]

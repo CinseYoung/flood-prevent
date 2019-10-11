@@ -1,0 +1,71 @@
+{
+    "fxkh": [
+        {
+            "id": "@id()",
+            "title": "一张图展示",
+            "url": "/base",
+            "tp": "1",
+            "imgSrc": "assets/home/wzgl.png"
+        },
+        {
+            "id": "@id()",
+            "title": "山洪预警预报",
+            "url": "/shyjyb",
+            "tp": "1",
+            "imgSrc": "assets/home/yjbj.png"
+        },
+        {
+            "id": "@id()",
+            "title": "统计分析",
+            "url": "/analyze",
+            "tp": "1",
+            "imgSrc": "assets/home/wzgl.png"
+        },
+        {
+            "title": "洪水风险图",
+            "url": "/riskmap",
+            "tp": "1",
+            "imgSrc": "assets/home/fxt.png"
+        },
+        {
+            "title": "山洪档案管理",
+            "url": "/record",
+            "tp": "1",
+            "imgSrc": "assets/home/ddjc.png"
+        },
+        {
+            "title": "数据综合管理",
+            "url": "/data",
+            "tp": "1",
+            "imgSrc": "assets/home/ddjc.png"
+        },
+        {
+            "id": "@id()",
+            "title": "中小河流预警预报",
+            "url": "http://10.54.1.155:8080/",
+            "tp": "2",
+            "imgSrc": "assets/home/wzgl.png"
+        },
+        {
+            "id": "@id()",
+            "title": "山洪水情预报",
+            "url": "http://10.54.1.102:1003/",
+            "tp": "2",
+            "imgSrc": "assets/home/yjzh.png"
+        },
+        {
+            "id": "@id()",
+            "title": "水利综合管理",
+            "url": "/system",
+            "tp": "1",
+            "imgSrc": "assets/home/xtgl.png"
+        },
+        {
+            "id": "@id()",
+            "title": "容器云管理",
+            "url": "/rqy",
+            "tp": "1",
+            "imgSrc": "assets/home/icon.png"
+        }
+    ]
+}

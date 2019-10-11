@@ -1,0 +1,44 @@
+{
+    "array|18": [
+        {
+            "id": "@id()",
+            "name": "桑珠孜区东风大桥",
+            "region": "桑珠孜区",
+            "river": "年楚河",
+            "children": [
+                {
+                    "id": "@id()",
+                    "name": "方案1 (50年一遇洪水-溃口)",
+                    "children": [
+                        {
+                            "id": "@id()",
+                            "name": "到达时间图",
+                            "url": "http://124.31.217.12:1003/arcgis/rest/services/2014riskmap/ddsj101/MapServer"
+                        },
+                        {
+                            "id": "@id()",
+                            "name": "淹没图",
+                            "url": "http://124.31.217.12:1003/arcgis/rest/services/2014riskmap/ymtu101/MapServer"
+                        }
+                    ]
+                },
+                {
+                    "name": "方案2 (100年一遇洪水-溃口)",
+                    "id": "@id()",
+                    "children": [
+                        {
+                            "id": "@id()",
+                            "name": "到达时间图",
+                            "url": "http://124.31.217.12:1003/arcgis/rest/services/2014riskmap/ddsj102/MapServer"
+                        },
+                        {
+                            "id": "@id()",
+                            "name": "淹没图",
+                            "url": "http://124.31.217.12:1003/arcgis/rest/services/2014riskmap/ymtu102/MapServer"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

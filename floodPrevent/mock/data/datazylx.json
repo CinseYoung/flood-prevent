@@ -1,0 +1,695 @@
+{
+    "comment": "资源类型",
+    "array|20": [
+      {"serial_number":"@id()","type_name":"德阳水库 ","sup_object":"拉萨河","describe":"拉萨河","addtime":"@datetime()"}
+    ],
+  
+    "comment1": "资源服务",
+    "fwArray|20": [
+      {"object_type":"拉萨河","interface_name":"德阳水库","address":"35","describe":"12201","provider":"落","audit_unit":"605154","addtime":"@datetime()"}
+    ],
+  
+    "comment2": "资源审核",
+    "shArray|20": [
+      {"object_type":"拉萨河","interface_name":"德阳水库","useCompany":"水利","useTime":"12201","examine":"否","addtime":"@datetime()"}
+    ],
+  
+    "comment3": "字典类型管理",
+    "zdlxArray|20": [
+      {"objid":"@id()","up_objid":"@id()","objname":"德阳水库","e_name":"拉萨河","code":"@id()","sort":"@id()","state|1":["启动","关闭"],"remarks":"112232312"}
+    ],
+  
+    "comment4": "字典信息管理",
+    "zdxxArray|20":[{
+      "id": "@id()",
+      "code": "@id()",
+      "state|1": ["关闭","开启"],
+      "name": "@id()",
+      "remarks": "@id()",
+      "children|3": [{
+        "sup_id":"@id()",
+        "sup_name":"@id()",
+        "id": "@id()",
+        "code": "@id()",
+        "state|1": ["关闭","开启"],
+        "name": "@id()",
+        "remarks": "@id()"
+      }]
+    }],
+
+    "comment5": "数据源管理",
+    "sjglArray|20": [
+      {"serial_number":"@id()","data_source_name":"拉萨","database_name":"西藏","database_type":"拉萨河","IP":"@id()","port":"@id()","account_number":"@id","describe":"112232312","addtime":"@datetime()"}
+    ],
+
+    "comment6": "同步模型管理",
+    "mxglArray|20": [
+      {"serial_number":"@id()","data_source_name":"拉萨","model_name":"西藏","model_image":"拉萨河","state|1":["开启","关闭"],"addtime":"@datetime()","start_up_time":"@datetime()","runtime":"@datetime('T')"}
+    ],
+
+    "comment7": "同步任务构建",
+    "rwgjArray|20": [
+      {"task_name":"拉萨","execution_frequency":"0.3","state|1":["开启","关闭"],"addtime":"@datetime()","start_up_time":"@datetime()","runtime":"@datetime('T')"}
+    ],
+
+    "comment8": "数据标识管理-右侧表单",
+    "sjbsArray|20": [
+      {"DXID":"@id()","SZYDXID":"@id()","SFXW|1":["是","否"],"STBDXID":"@id()","DXMC":"@cname()","DXBM":"@id()","DSSJ":"@datetime()","XWSJ":"@datetime()","BZBM":"<ak,fkl>","PCBM":"@datetime(‘T)","SJC":"@datetime(‘T)","SJLY":"@datetime(‘T)","BZ":"@cparagraph()","CJSJ":"@datetime()","ZHGXSJ":"@datetime()"}
+    ],
+
+    "comment9": "数据标识管理-左侧列表",
+    "left_sjbsArray": [
+      { "name": "流域标识", "lable": "LY_LYDX_I", "Interface": "data_sjgl_sjbs__LY_LYDX_I" },
+      { "name": "湖泊标识", "lable": "HP_HPDX_I", "Interface": "data_sjgl_sjbs__HP_HPDX_I" },
+      { "name": "河流标识", "lable": "HL_HLDX_I", "Interface": "data_sjgl_sjbs__HL_HLDX_I" },
+      { "name": "测站标识", "lable": "CZ_CZDX_I", "Interface": "data_sjgl_sjbs__CZ_CZDX_I" },
+      { "name": "大坝标识", "lable": "DB_DBDX_I", "Interface": "data_sjgl_sjbs__DB_DBDX_I" },
+      { "name": "水电站标识", "lable": "SDZ_SDZDX_I", "Interface": "data_sjgl_sjbs__SDZ_SDZDX_I" },
+      { "name": "水闸标识", "lable": "SZ_SZDX_I", "Interface": "data_sjgl_sjbs__SZ_SZDX_I" },
+      { "name": "橡胶坝标识", "lable": "XJB_XJBDX_I", "Interface": "data_sjgl_sjbs__XJB_XJBDX_I" },
+      { "name": "泵站标识", "lable": "BZ_BZDX_I", "Interface": "data_sjgl_sjbs__BZ_BZDX_I" },
+      { "name": "堤防标识", "lable": "DF_DFDX_I", "Interface": "data_sjgl_sjbs__DF_DFDX_I" },
+      { "name": "渠道标识", "lable": "QD_QDDX_I", "Interface": "data_sjgl_sjbs__QD_QDDX_I" },
+      { "name": "涵洞标识", "lable": "HD_HDDX_I", "Interface": "data_sjgl_sjbs__HD_HDDX_I" },
+      { "name": "桥梁标识", "lable": "QL_QLDX_I", "Interface": "data_sjgl_sjbs__QL_QLDX_I" },
+      { "name": "水厂标识", "lable": "SC_SCDX_I", "Interface": "data_sjgl_sjbs__SC_SCDX_I" },
+      { "name": "取水口标识", "lable": "QSK_QSKDX_I", "Interface": "data_sjgl_sjbs__QSK_QSKDX_I" },
+      { "name": "排污口标识", "lable": "PWK_PWKDX_I", "Interface": "data_sjgl_sjbs__PWK_PWKDX_I" },
+      { "name": "水库标识", "lable": "SK_SKDX_I", "Interface": "data_sjgl_sjbs__SK_SKDX_I" },
+      { "name": "灌区工程标识", "lable": "GQ_GQDX_I", "Interface": "data_sjgl_sjbs__GQ_GQDX_I" },
+      { "name": "农村供水工程标识", "lable": "NCGS_NCGSDX_I", "Interface": "data_sjgl_sjbs__NCGS_NCGSDX_I" },
+      { "name": "闸站工程标识", "lable": "ZZ_ZZDX_I", "Interface": "data_sjgl_sjbs__ZZ_ZZDX_I" },
+      { "name": "自然人标识", "lable": "ZRR_ZRRDX_I", "Interface": "data_sjgl_sjbs__ZRR_ZRRDX_I" },
+      { "name": "单位标识", "lable": "DW_DWDX_I", "Interface": "data_sjgl_sjbs__DW_DWDX_I" },
+      { "name": "标识行政区划", "lable": "XZQH_XZQHDX_I", "Interface": "data_sjgl_sjbs__XZQH_XZQHDX_I" },
+      { "name": "流域片区标识", "lable": "LYPQ_LYPQDX_I", "Interface": "data_sjgl_sjbs__LYPQ_LYPQDX_I" },
+      { "name": "水资源分区标识", "lable": "SZY_SZYDX_I", "Interface": "data_sjgl_sjbs__SZY_SZYDX_I" },
+      { "name": "水功能区标识", "lable": "SGNQ_SGNQDX_I", "Interface": "data_sjgl_sjbs__SGNQ_SGNQDX_I" },
+      { "name": "地表水水源地标识", "lable": "SYDB_SYDBDX_I", "Interface": "data_sjgl_sjbs__SYDB_SYDBDX_I" },
+      { "name": "地下水水源地标识", "lable": "SYDX_SYDXDX_I", "Interface": "data_sjgl_sjbs__SYDX_SYDXDX_I" },
+      { "name": "水土保持区划标识", "lable": "STBC_STBCDX_I", "Interface": "data_sjgl_sjbs__STBC_STBCDX_I" },
+      { "name": "采砂标识", "lable": "CS_CSDX_I", "Interface": "data_sjgl_sjbs__CS_CSDX_I" },
+      { "name": "监控点标识", "lable": "JKD_JKDDX_I", "Interface": "data_sjgl_sjbs__JKD_JKDDX_I" },
+      { "name": "多媒体标识", "lable": "DMT_DMTDX_I", "Interface": "data_sjgl_sjbs__DMT_DMTDX_I" }
+    ],
+
+    "comment10": "数据备份还原",
+    "sjbfArray|20": [
+      {"BM":"@name()","BSF":"@id()","SFSC|1":["是","否"],"BFLX":"@id()","BFTS":"@natural(0,10)","SJDX":"@id()","ZHSJC":"@datetime(‘T’)","BFSJ":"@datetime()"}
+    ],
+
+    "comment11": "数据备份还原",
+    "AllListArray": [
+      {"name":"流域标识","lable":"LY_LYDX_I"},{"name":"流域基本属性","lable":"LY_LYJBSX_E"},
+      {"name":"湖泊标识","lable":"HP_HPDX_I"}, {"name":"湖泊基本属性","lable":"HP_HPJBSX_E"},
+      {"name":"河流标识","lable":"HL_HLDX_I"},{"name":"河流基本属性","lable":"HL_HLJBSX_E"},
+      {"name":"测站标识","lable":"CZ_CZDX_I"},{"name":"测站基本属性","lable":"CZ_CZJBSX_E"},
+      {"name":"大坝标识","lable":"DB_DBDX_I"},{"name":"大坝基本属性","lable":"DB_DBJBSX_E"},
+      {"name":"水电站标识","lable":"SDZ_SDZDX_I"},{"name":"水电站基本属性","lable":"SDZ_SDZJBSX_E"},
+      {"name":"水闸标识","lable":"SZ_SZDX_I"},{"name":"水闸基本属性","lable":"SZ_SZJBSX_E"},
+      {"name":"橡胶坝标识","lable":"XJB_XJBDX_I"},{"name":"橡胶坝基本属性","lable":"XJB_XJBJBSX_E"},
+      {"name":"泵站标识","lable":"BZ_BZDX_I"},{"name":"泵站基本属性","lable":"BZ_BZJBSX_E"},
+      {"name":"堤防标识","lable":"DF_DFDX_I"},
+      {"name":"渠道标识","lable":"QD_QDDX_I"},
+      {"name":"涵洞标识","lable":"HD_HDDX_I"},
+      {"name":"桥梁标识","lable":"QL_QLDX_I"},
+      {"name":"水厂标识","lable":"SC_SCDX_I"},
+      {"name":"取水口标识","lable":"QSK_QSKDX_I"},
+      {"name":"排污口标识","lable":"PWK_PWKDX_I"},
+      {"name":"水库标识","lable":"SK_SKDX_I"},{"name":"SZY_SZYJSFQJBXXB_B","lable":"SK_SKYLYGX_R"},{"name":"水库效益指标","lable":"SK_SKXYZB_B"},
+      {"name":"灌区工程标识","lable":"GQ_GQDX_I"},
+      {"name":"农村供水工程标识","lable":"NCGS_NCGSDX_I"},
+      {"name":"闸站工程标识","lable":"ZZ_ZZDX_I"},
+      {"name":"自然人标识","lable":"ZRR_ZRRDX_I"},
+      {"name":"单位标识","lable":"DW_DWDX_I"},
+      {"name":"标识行政区划","lable":"XZQH_XZQHDX_I"},
+      {"name":"流域片区标识","lable":"LYPQ_LYPQDX_I"},
+      {"name":"水资源分区标识","lable":"SZY_SZYDX_I"},{"name":"水资源计算分区基本信息表","lable":"SZY_SZYJSFQJBXXB_B"},
+      {"name":"水功能区标识","lable":"SGNQ_SGNQDX_I"},{"name":"水功能区基准年污染量信息表","lable":"SGNQ_SGNQJZNWRLXXB_B"},
+      {"name":"地表水水源地标识","lable":"SYDB_SYDBDX_I"},
+      {"name":"地下水水源地标识","lable":"SYDX_SYDXDX_I"},{"name":"地下水源地水量信息年报表","lable":"SYDX_DXSYDSLXXNBB_B"},
+      {"name":"水土保持区划标识","lable":"STBC_STBCDX_I"},{"name":"水土保持方案编制基本信息表","lable":"STBC_STBCFABZJBXXB_B"},{"name":"水土保持方案特性表","lable":"STBC_STBCFATXB_B"},
+      {"name":"采砂标识","lable":"CS_CSDX_I"},
+      {"name":"监控点标识","lable":"JKD_JKDDX_I"},
+      {"name":"多媒体标识","lable":"DMT_DMTDX_I"},{"name":"多媒体基本信息表","lable":"DMT_DMTJBXXB_E"}
+    ],
+
+    "comment12": "多媒体基本信息表",
+    "dmtjbxxbArray|20": [
+      {"GUID":"@id()","DMTDXID":"@id()","DMTBM":"@id()","BT":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment13": "监控点基本属性",
+    "jkdjbsxArray|20": [
+      {"GUID":"@id()","JKDDXID":"@id()","SBBM":"@id()","SBMC":"@cparagraph()","XXWZ":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment14": "监控点监控数据文件",
+    "jkdjksjwjArray|20": [
+      {"GUID":"@id()","JKDDXID":"@id()","JLKSSJ":"@datetime()","JLJSSJ":"@datetime()","WJMC":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment16": "可采区基本属性",
+    "kcqjbsxArray|20": [
+      {"GUID":"@id()","CSDXID":"@id()","KCQMC":"@county()","CQPZWH":"@id()","CQGHWH":"@id()","JBQK":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment15": "禁采区基本属性",
+    "jcqjbsxArray|20": [
+      {"GUID":"@id()","CSDXID":"@id()","JCQMC":"@cparagraph()","JBQK":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment17": "水土保持区划基本属性",
+    "stbcqhjbsxArray|20": [
+      {"GUID":"@id()","STBCQHDXID":"@id()","QHMC":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment18": "水土保持方案编制基本信息表",
+    "stbcfabzjbxxbArray|20": [
+      {"GUID":"@id()","STBCQHDXID":"@id()","STBCFABH":"@cparagraph()","STBCFAMC":"@cparagraph()","FABZDW":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment19": "水土保持方案技术审查信息表",
+    "stbcfajsscxxbArray|20": [
+      {"GUID":"@id()","STBCQHDXID":"@id()","STBCFABH":"@cparagraph()","SCJG":"@cparagraph()","SCDD":"@county(true)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment20": "水土保持方案批复信息表",
+    "stbcfapfxxbArray|20": [
+      {"GUID":"@id()","STBCQHDXID":"@id()","PFWH":"@id()","QSWH":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment21": "水土保持方案实施信息表",
+    "stbcfassxxbArray|20": [
+      {"GUID":"@id()","STBCQHDXID":"@id()","SGDW":"@cparagraph()","JLDWMC":"@county()","JCDWMC":"@county()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment22": "水土保持方案特性表",
+    "stbcfatxbArray|20": [
+      {"GUID":"@id()","STBCQHDXID":"@id()","STBCFABH":"@cparagraph()","STBCJCF":"@natural(60,100)","STBCJLF":"@natural(60, 100","STBCSSBCF":"@natural(60, 100)","STBCZTZ":"@natural(60, 100)","STLSZZLD":"@natural(60, 100)","TRLSKZB":"@natural(60, 100)","XMJSQMJ":"@natural(60, 100)","YDMTRQSMS":"@natural(60, 100)","XZSTLSL":"@natural(60, 100)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment23": "水土保持方案特性表（防治措施表）",
+    "stbcfatxbcsArray|20": [
+      {"GUID":"@id()","STBCQHDXID":"@id()","GCCSTZ":"@natural()","LSCSTZ":"@natural()","ZWCSTZ":"@natural()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment24": "水土保持方案特性表(项目组成表)",
+    "stbcfatxbxmArray|20": [
+      {"GUID":"@id()","STBCQHDXID":"@id()","STBCFABH":"@id()","JSQY":"@county()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment25": "水土保持类型区划图表",
+    "stbclxqhtbArray|20": [
+      {"GUID":"@id()","STBCQHDXID":"@id()","STBCLXQMC":"@name()","STBCLXQJB":"@natural(0,10)","KJDXZC":"@natural()","KJDXZZ":"@natural(60,100)","KJDXMJ":"@cparagraph()","SJLY":"@cparagraph()"}
+    ],
+    "comment26": "水土保持重点防治区划图",
+    "stbczdfzqhtArray|20": [
+      {"GUID":"@id()","STBCQHDXID":"@id()","KJDXMJ":"@natural(60,100)","ZDFZQMC":"@name()","ZDFZQLX":"@name()","ZDFZQJB":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment27": "集中式地下水供水水源地与大型井灌区地下水动态表",
+    "sydx_dxjgqdxs_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","SYDJGQMC":"@county()","SD1MS":"@natural(0,20)","SD1SW":"@natural(0,20)","SD2MS":"@natural(0,20)","SD2SW":"@natural(0,20)",
+      "SD3MS":"@natural(0,20)","SD3SW":"@natural(0,20)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment28": "集中式地下水供水水源地与大型井灌区基本情况表",
+    "sydx_dxjgqjbq_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","DXSTBDMTDXID":"@id()","SYDJGQMC":"@county()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment29": "地下水供水水源地水质状况表",
+    "sydx_dxsgssydszzkb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","DXSTBDM":"@id()","ND":"@natural(0,10)","CBXM":"@name()","CBL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment30": "地下水水源地代表水位信息表",
+    "sydx_dxssyddbswxxb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","DBSWEI":"@natural(0,10)","DBSWEN":"@natural(0,10)","DBMS":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment31": "地下水水源地分项开采量统计表",
+    "sydx_dxssydfxxcltjb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","NF":"@natural(1,31)","YF":"@natural(0,12)","JHQSLX":"@natural(0,10)","JHQSL":"@natural(0,10)","SJQSLX":"@natural(0,10)","SJQSL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment32": "地下水水源地基本属性",
+    "sydx_dxssydjbsx_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","DXSSYDDM":"@id()","DXSSYDMC":"@county()","SZYFQDXID":"@id()","XZQHDXID":"@id()","SYDDJ":"@natural(0,10)","SYDGLDWDXID":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment33": "地下水水源地开采量统计表",
+    "sydx_dxssydkcltjb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","DXSAHSJZFLBM":"@id()","DXSAMZTJFLBM":"@id()","JHKCL":"@natural(0,10)","SJKCL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment34": "地下水水源地控制水位信息表",
+    "sydx_dxssydkzswxxb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","SJ":"@date()","KZSWLX":"@natural(0,10)","SW":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment35": "地下水水源地水质评价信息表",
+    "sydx_dxssydszpjxxb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","CZDXID":"@id()","PJFF":"@name()","DQTDXMDBPJ":"@name()","DXSSYDZPJMJ":"@natural(0,10)","DXSSYDDBMJ":"@natural(0,10)","DXSSYDSZJCZZS":"@natural(0,10)","SZLB":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment36": "地下水水源地与多媒体资料关系表",
+    "sydx_dxssydydmtzlgxb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","DMTDXID":"@natural(60,100)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment37": "地下水水源地与地下水监测站关系表",
+    "sydx_dxssydydxsjczgxb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","CZDXID":"@natural(60,100)","JBQK":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "commen38": "地下水源地来水量日报表",
+    "sydx_dxsydlslrbb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","RQ":"@natural(60,100)","DXSMS":"@natural(0,10)","PJSWEI":"@natural(0,10)","PJSWEN":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment39": "地下水源地来水量月报表",
+    "sydx_dxsydlslybb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","DXSMS":"@natural(60,100)","KKCL":"@name()","PJSWEI":"@name()","PJSWEN":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()","NF":"@datetime()","YF":"@datetime"}
+    ],
+    "comment40": "地下水源地水量信息年报表",
+    "sydx_dxsydslxxnbb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","DXSXZ":"@natural(60,100)","NF":"@datetime()","DXSZYL":"@natural(0,10)","KKCL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment41": "集中式地下水供水水源地保护情况表",
+    "sydx_jzsdxsgssydbhqkb_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","DXSTBDMDMTDXID":"@id()","XZQHDXID":"@id()","YYYJBHQMJ":"@natural(0,10)","YYYJBHQZBFGL":"@natural(0,10)","YYEJBHQMJ":"@natural(0,10)","YYEJBHQZBFGL":"@natural(0,10)","XZEJBHQZBFGL":"@natural(0,10)","XZEJBHQMJ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment42": "集中式生活饮用水地下水水源地水质状况评价成果表",
+    "sydx_sydszzkpj_Array|20": [
+      {"GUID":"@id()","DXSSYDDXID":"@id()","DMTDXID":"@id()","SYDLX":"@name()","QNHGCS":"@natural(0,10)","QNJCCS":"@natural(0,10)","ZYCBXM":"@cparagraph(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment43": "地表水水源地水质评价信息表",
+    "sydb_dbssydszpjxxb_Array|20": [
+      {"GUID":"@id()","DBSSYDDXID":"@id()","CDSJ":"@datetime()","CYSJ":"@datetime()","SZLB":"@natural(0,10)","SZSGNQSZDBZK":"@cparagraph()","HKYYZTPJJG":"@cparagraph()","JBXMZZYCBXM":"@cparagraph()","YDYJWDBPJ":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment44": "地下水水源地基本属性",
+    "sydb_dbssyjbsx_Array|20": [
+      {"GUID":"@id()","DBSSYDDXID":"@id()","DBSSYDDM":"@id()","DBSSYDMC":"@name()","GSDX":"@name()","SJNGSL":"@natural(0,10)","SJNGSRIC":"@natural(0,10)","SJRGSL":"@natural(0,10)","SMMJ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment20": "地表水源地来水量日报表",
+    "sydb_dbsydlslrbb_Array|20": [
+      {"GUID":"@id()","DBSSYDDXID":"@id()","RQ":"@datetime()","XSL":"@natural(0,10)","JSL":"@natural(0,10)","PJLL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment46": "地表水源地来水量月报表",
+    "sydb_dbsydlslybb_Array|20": [
+      {"GUID":"@id()","DBSSYDDXID":"@id()","NF":"@natural(0,20)","YF":"@natural(1,12)","XSL":"@natural()","JSL":"@natural(0,10)","PJLL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment47": "地表水源地水量信息年报表",
+    "sydb_dbsydslxxnbb_Array|20": [
+      {"GUID":"@id()","DBSSYDDXID":"@id()","NF":"@natural(0,20)","XSL":"@natural()","JSL":"@natural(0,10)","PJLL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment48": "水功能区达标评价报告书年度评估统计表(一)",
+    "sgnq_dbpjbgndpg_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","PJNF":"@natural(0,20)","PJYZ":"@natural(0,10)","XQSZLX":"@natural(0,10)","FXQSZLX":"@natural(0,10)","QNQSZLX":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment49": "水功能区达标评价报告书达标评价统计表(二)",
+    "sgnq_dbpjbgndpj_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","PJNF":"@natural(0,20)","GSDBBL":"@natural()","XSLDBL":"@natural(0,10)","MJDBL":"@natural(0,10)","HZDBBL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment50": "单个水功能区达标考核情况表",
+    "sgnq_dgsgnqdbkhqkb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","NF":"@natural(0,20)","SZLXSFDB":"@natural(0,10)","NJCSSFDB":"@natural(0,10)","MZSZMBCSBL":"@natural(0,10)","MZSZMBCSBLSFDB":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment51": "水功能区达标评价报告书湖泊水质评价统计表",
+    "sgnq_hbszpjtjb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","PJNF":"@natural(0,20)","SZLX":"@natural(01,10)","GSZSMMJ":"@natural(0,10)","ASMMJBL":"@natural(0,10)","YYZTLX":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment52": "水功能区达标评价报告书河道断面单项水质项目评价数据表",
+    "sgnq_hddmdxszx_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","PJSJ":"@natural(0,20)","SZJCXMLX":"@natural()","ND":"@natural(0,10)","SZMB":"@natural(0,10)","ZYCBXM":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment53": "水功能区达标评价报告书河道断面水质达标评价信息表",
+    "sgnq_hddmszdbp_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","NF":"@natural(0,20)","SZMB":"@natural()","XQSZLX":"@natural(0,10)","FXQSZLX":"@natural(0,10)","QNQSZLX":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment54": "六级流域与水功能区包含关系表",
+    "sgnq_ljlyysgnqbhgxb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","SGNEJQDXTD":"@natural(0,20)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment55": "水功能区达标评价报告书达标评估信息表",
+    "sgnq_pjbgsdbpgxxb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","PJSJ":"@natural(0,20)","XSL":"@natural()","SZLX":"@natural(0,10)","ZYCBXMJBS":"@natural(0,10)","CYPJXM":"@cparagraph()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment56": "全国水功能区水质评价成果表",
+    "sgnq_qgsgnqszpjcgb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","SSPFGH":"@natural(0,20)","QNJCCS":"@natural()","QNSZLX":"@natural(0,10)","QNDBPJCBXM":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment57": "水功能区报告信息表",
+    "sgnq_sgnqbgxxb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","BZRQ":"@natural(0,20)","FSRQ":"@natural()","PFRQ":"@natural(0,10)","BAZT":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment58": "水功能区达标评价报告书基本信息表",
+    "sgnq_sgnqdbpjbgsjbxxb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","PJNF":"@natural(0,20)","BZRQ":"@natural(0,10)","BAZT":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment59": "水功能区界碑基本信息表",
+    "sgnq_sgnqjbjbxxb_Array|20": [
+      {"GUID":"@id()","SGNQJBDXID":"@id()","SGNQJBDM":"@natural(0,20)","SGNQJBMC":"@natural()","SYSGNQDXID":"@natural(0,10)","XYSGNQDXID":"@natural(0,10)","LBSJ":"@natural(0,10)","LBDW":"@natural(0,10)","ZT":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment60": "水功能区基本属性",
+    "sgnq_sgnqjbsx_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","SGNQMC":"@natural(0,20)","SGNQZZDM":"@natural()","SGNQMJ":"@natural(0,10)","SGNQZD":"@natural(0,10)","SGNQZDSW":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment61": "水功能区基准年污染量信息表",
+    "sgnq_sgnqjznwrlxxb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","NF":"@natural(0,20)","RHFWSL":"@natural()","CODPFL":"@natural(0,10)","ADPFL":"@natural(0,10)","TNPFL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment62": "行政区水功能区纳污能力及限排排污总量控制分项信息表",
+    "sgnq_sgnqnwnlfxxx_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","GHNWNL2020":"@natural(0,20)","SZJCXMLX":"@natural()","XZRHL":"@natural(0,10)","XZNWNL":"@natural(0,10)","GI1NWNL2030":"@natural(0,10)","XZPWZL2015":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment63": "水功能区纳污能力核定报告书信息表",
+    "sgnq_sgnqnwnlhdbgsxxb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","BZRQ":"@natural(0,20)","FSRQ":"@natural()","PFRQ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment64": "水功能区纳污能力核定成果信息表",
+    "sgnq_sgnqnwnlhdcgxxb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","GHSPN":"@natural(0,20)","SGNQSTLX":"@natural()","CODNWL":"@natural(0,10)","ADNWL":"@natural(0,10)","TNNWL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment65": "行政区水功能区纳污能力及限排排污总量控制基本信息表",
+    "sgnq_sgnqnwnljbxx_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","SZDBL2015":"@natural(0,20)","SZDBL2020":"@natural()","JZNSZDBL":"@natural(0,10)","YJSGNQGS":"@natural(0,10)","EJSGNQGS":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment66": "水功能区水质达标分析信息表",
+    "sgnq_sgnqszdbfxxxb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","JZNNF":"@natural(0,20)","JZNXQSZLX":"@natural()","JZNFXQSZLX":"@natural(0,10)","JZNQNSZLX":"@natural(0,10)","JZNDBPJ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment67": "水功能区水质达标评价结果表",
+    "sgnq_sgnqszdbjjgb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","PJSJ":"@natural(0,20)","PJSD":"@natural()","SZLB":"@natural(0,10)","DBQK":"@natural(0,10)","YYZTZS":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment68": "水功能区水质达标状况信息表",
+    "sgnq_sgnqszdbzkxxb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","PJFF":"@natural(0,20)","PJSD":"@natural()","PJGS":"@natural(0,10)","GHGS":"@natural(0,10)","DBGS":"@natural(0,10)","PJHZ":"@natural(0,10)","DBHZ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment69": "水功能区限排排污总量控制信息表",
+    "sgnq_sgnqxppwzlkzxxb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","SZJCXMLX":"@natural(0,20)","GHNWNL2015":"@natural()","XZRHL":"@natural(0,10)","XZNWNL":"@natural(0,10)","GHNWNL2020":"@natural(0,10)","XZPWZL2015":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment70": "水功能区达标评价报告书省界水体水质评价统计表",
+    "sgnq_sjstszpjt_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","PJNF":"@natural(0,20)","SJDMZS":"@natural()","PJSD":"@natural(0,10)","SZLX":"@natural(0,10)","SZLXBL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment71": "水功能区达标评价报告书水库水质评价统计表",
+    "sgnq_skszpjtjb_Array|20": [
+      {"GUID":"@id()","SGNQDXID":"@id()","PJNF":"@natural(0,20)","SZLX":"@natural()","AXSLBL":"@natural(0,10)","YYZTXAGSBL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment72": "水资源三级分区与地表水取水口的包含关系表",
+    "szy_fqydkdehgxb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment73": "流域水功能区纳污能力及限排排污总量控制分项信息表",
+    "szy_nwnljxppwzlkzf_Array|20": [
+      {"GUID":"@id()","SGNQNWNLHDBGSDM":"@id()","SZYFQDXID":"@natural(0,20)","SZJCXMLX":"@natural(0,20)","XZRHL":"@natural(0,10)","XZNWNL":"@natural(0,10)","GHNWNL2020":"@natural(0,10)","GHNWNL2030":"@natural(0,10)","XZPWZL2015":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment74": "流域水功能区纳污能力及限排排污总量控制基本信息表",
+    "szy_nwnljxppwzlkzj_Array|20": [
+      {"GUID":"@id()","SGNQNWNLIIDBGSDM":"@id()","SZYFQDXID":"@natural(0,20)","YJSGNQGS":"@natural(0,20)","EJSGNQGS":"@natural(0,10)","JZNSZDBL":"@natural(0,10)","SZDBL2015":"@natural(0,10)","SZDBL2030":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment75": "取水许可基本情况",
+    "szy_qsxkjbqk_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","NF":"@natural(0,20)","NZBYDYXQSXKZZS":"@natural(0,20)","NZBYDDRSYXQSXKZS":"@natural(0,10)","NZBYDKQSYXQSXKZS":"@natural(0,10)","NZBYDSLFDYXQSXKZS":"@natural(0,10)","NZBYDYXQSXKZDBSXKSL":"@natural(0,10)","NZBYDYXQSXKZDXSXKSL":"@natural(0,10)","NZBYDYXQSXKZDRSXKSL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment76": "取水许可基本情况表(按水资源分区统计)",
+    "szy_qsxkjbqkb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","NF":"@natural(0,20)","DNSPTGSZYLZXMS":"@natural(0,20)","SZYLZTGKKCSL":"@natural(0,20)","DNXPSQS":"@natural(0,10)","XPSQPZSL":"@natural(0,10)","DNXFXKZS":"@natural(0,10)","XFXKZXKSL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment77": "取水许可监督检查情况",
+    "szy_qsxkjdjcqk_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","NF":"@natural(0,20)","TJFLDM":"@natural(0,20)","NZBYSSJDGLDQSXKZS":"@natural(0,10)","QSXKZPZDSL":"@natural(0,10)","NSQSXICZS":"@natural(0,10)","NSSL":"@natural(0,10)","TSSZJCDQSHS":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment78": "取水许可监督检查情况表(按水资源分区统计)",
+    "szy_qsxkjdjcqkb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","NF":"@natural(0,20)","TJFLDM":"@natural(0,20)","NZBYSSJDGLDQSXKZS":"@natural(0,10)","QSXKZPZDSL":"@natural(0,10)","NSQSXKZS":"@natural(0,10)","NSSL":"@natural(0,10)","TSSZJCDQSHS":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment79": "水功能区达标考核指标表",
+    "szy_sgnqdbkhzbb_Array|20": [
+      {"GUID":"@id()","SZYJSFQDXID":"@id()","NF":"@natural(0,20)","KHSDLX":"@natural(0,20)","SGNQKHGS":"@natural(0,10)","SGNQYQDBGS":"@natural(0,10)","SGNQYQDBZD":"@natural(0,10)","SGNQYQDBMJ":"@natural(0,10)","XZQJDMKHGS":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment80": "水资源三级分区与水功能一级区的包含关系表",
+    "szy_sjfqnyjqdbhgx_Array|20": [
+      {"GUID":"@id()","SZYSJFQDXID":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment81": "水资源三级分区与水功能二级区的包含关系表",
+    "szy_sjfqyejqdbhgx_Array|20": [
+      {"GUID":"@id()","SZYSJFQDXID":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment82": "省辖市级行政区划及水资源概况表",
+    "szy_sxsjxzqhjszygkb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","QSCDDM":"@natural(0,20)","FHZYXDM":"@natural(0,20)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment83": "水资源分区地下水开采量统计表",
+    "szy_szyfqdxskcltjb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","NF":"@natural(0,20)","YF":"@natural(0,20)","DXSAMZTJFLBM":"@natural(0,10)","DXSAHSJZFLBM":"@natural(0,10)","KCL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment84": "水资源分区基本属性",
+    "szy_szyfqjbsx_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","SZYFQMJ":"@natural(0,20)","SQQMJ":"@natural(0,20)","PYQMJ":"@natural(0,10)","DNPJJSL":"@natural(0,10)","DNPJSZYZL":"@natural(0,10)","DNPJDBSZYL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment85": "水资源分区评价结果表",
+    "szy_szyfqpjjgb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","PJSJ":"@natural(0,20)","PJSDZ":"@natural(0,20)","PJFF":"@natural(0,10)","SZYFQCZZS":"@natural(0,10)","SZYFQDBCZGS":"@natural(0,10)","SZYFQZPJHZ":"@natural(0,10)","SZYFQDBHZ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment86": "水资源分区取水许可统计表",
+    "szy_szyfqqsxktjb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","NF":"@natural(0,20)","DNSPTGSZYLZXMS":"@natural(0,20)","SZYLZTGKKCSL":"@natural(0,10)","DNXPSQS":"@natural(0,10)","XPSQPZSL":"@natural(0,20)","DNXFXKZS":"@natural(0,20)","XFXKZXKSL":"@natural(0,20)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment87": "水资源分区与湖泊关系表",
+    "szy_szyfqyhbgxb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment88": "水资源分区与水库关系表",
+    "szy_szyfqyskgxb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment89": "水资源分区与行政区划关系表",
+    "szy_szyfqyxzqhgxb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment90": "水资源费征收使用情况表",
+    "szy_szyfzssyqkb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","NF":"@natural(0,20)","ZSGYSZYF":"@natural(0,20)","ZSNYSZYF":"@natural(0,10)","ZSSHSZYF":"@natural(0,10)","ZSSLFDSZYF":"@natural(0,10)","ZSHDSZYF":"@natural(0,10)","ZSDBSSZYF":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment91": "水资源计算分区基本信息表",
+    "szy_szyjsfqjbxxb_Array|20": [
+      {"GUID":"@id()","SZYJSFQDM":"@id()","SZYJSFQMC":"@natural(0,20)","SZYYJQDXID":"@natural(0,20)","SZYEJQDXID":"@natural(0,10)","SZYSJQDXID":"@natural(0,10)","SZYJSFQMJ":"@natural(0,10)","SZYJSFQPYMJ":"@natural(0,10)","SZYJSFQDXID":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment92": "水资源计算分区与测站关系表",
+    "szy_szyjsfqyczgxb_Array|20": [
+      {"GUID":"@id()","SZYJSFQDXID":"@id()","JSFQNCZPJHZ":"@natural(0,20)","JSFQNCZPJMJ":"@natural(0,20)","JSFQNCZPJKR":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment93": "水资源区与测站关系",
+    "szy_szyqyczgx_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment94": "水资源三级分区与泵站关系表",
+    "szy_szysjfqybzgxb_Array|20": [
+      {"GUID":"@id()","SZYSJFQDXID":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment95": "水资源三级分区与地下水水源地关系表",
+    "szy_szysjfqydxssydgxb_Array|20": [
+      {"GUID":"@id()","SZYFQDXID":"@id()","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment96": "行政区水功能区达标考核情况表",
+    "szy_xzqsgnqdbkhqkb_Array|20": [
+      {"GUID":"@id()","TBDWDM":"@id()","SZYJSFQDXID":"@natural(0,20)","NF":"@natural(0,20)","KHSDLX":"@natural(0,10)","SGNQDBGS":"@natural(0,10)","SGNQGSDBL":"@natural(0,10)","GSSFDB":"@natural(0,10)","SGNQDBZD":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment97": "行政区水功能区分类达标考核情况表",
+    "szy_xzqsgnqfldbkhqkb_Array|20": [
+      {"GUID":"@id()","TBDWDM":"@id()","SZYJSFQDXID":"@natural(0,20)","NF":"@natural(0,20)","KHSDLX":"@natural(0,10)","SGNQLBDM":"@natural(0,10)","SGNQSZDBL":"@natural(0,10)","SFDB":"@natural(0,10)","KHZGDW":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment98": "水资源公报重要江河湖泊水功能区水质达标状况信息表",
+    "szy_zyjhhbsgnqszd_Array|20": [
+      {"GUID":"@id()","SZYJSFQDXID":"@id()","SZYGBDM":"@natural(0,20)","SGNQLBDM":"@natural(0,20)","PJSD":"@natural(0,10)","GHGS":"@natural(0,10)","PJGS":"@natural(0,10)","DBGS":"@natural(0,10)","DBHZ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment99": "流域片区基本属性",
+    "lypq_lypqjbsx_Array|20": [
+      {"GUID":"@id()","LYPQDXID":"@id()","ZLJZRQ":"@natural(0,20)","HYWZ":"@natural(0,20)","HYGC":"@natural(0,10)","ZYQDWZ":"@natural(0,10)","XYQDWZ":"@natural(0,10)","HKWZ":"@natural(0,10)","GLZD":"@natural(0,10)","SYHZ":"@natural(0,10)","ZYHZ":"@natural(0,10)","XYHZ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment100": "行政区划基本信息",
+    "xzqh_xzqhjbxx_Array|20": [
+      {"GUID":"@id()","XZQHDXID":"@id()","DXID":"@natural(0,20)","SZY_DXID":"@natural(0,20)","STB_DXID":"@natural(0,10)","XZQHDM":"@natural(0,10)","DMJB":"@natural(0,10)","XZQHMC":"@natural(0,10)","SJDM":"@natural(0,10)","SFYZJD":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment101": "变更历史",
+    "xzqh_bgls_Array|20": [
+      {"GUID":"@id()","XZQHDXID":"@id()","BGSJ":"@natural(0,20)","BGLX":"@natural(0,20)","BGHXZQHDXID":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment102": "变更历史附件信息",
+    "xzqh_bglsfjxx_Array|20": [
+      {"GUID":"@id()","XZQHDXID":"@id()","BGSJ":"@natural(0,20)","BGYJ":"@natural(0,20)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment103": "行政区划及水资源概况",
+    "xzqh_xzqhjszygk_Array|20": [
+      {"GUID":"@id()","XZQHDXID":"@id()","NF":"@natural(0,20)","QSCDDM":"@natural(0,20)","FHZYXDM":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment104": "农作物播种面积情况",
+    "xzqh_nzwbzmjqk_Array|20": [
+      {"GUID":"@id()","XZQHDXID":"@id()","ND":"@natural(0,20)","QHMC":"@natural(0,20)","LSZWZBZMJ":"@natural(0,10)","GWZBZMJ":"@natural(0,10)","DGBZMJ":"@natural(0,10)","XMBZMJ":"@natural(0,10)","YMBZMJ":"@natural(0,10)","DLBZMJ":"@natural(0,10)","SLBZMJ":"@natural(0,10)","YLZBZMJ":"@natural(0,10)","HSBZMJ":"@natural(0,10)","YCZBZMJ":"@natural(0,10)","MHBZMJ":"@natural(0,10)","MLBZMJ":"@natural(0,10)","TLZBZMJ":"@natural(0,10)","GZBZMJ":"@natural(0,10)","YYBZMJ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment105": "农业机械拥有量",
+    "xzqh_nyjxyyl_Array|20": [
+      {"GUID":"@id()","XZQHDXID":"@id()","ND":"@natural(0,20)","QHMC":"@natural(0,20)","NYDZXTLJ":"@natural(0,10)","XXTLJ":"@natural(0,10)","DZXTLJJYNJ":"@natural(0,10)","XXTLJJYNJ":"@natural(0,10)","NYPGCYJ":"@natural(0,10)","YYJDC":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment106": "农作物产量情况",
+    "xzqh_nzqclqk_Array|20": [
+      {"GUID":"@id()","XZQHDXID":"@id()","ND":"@natural(0,20)","QHMC":"@natural(0,20)","LSZCL":"@natural(0,10)","GWZCL":"@natural(0,10)","DGCL":"@natural(0,10)","XMCL":"@natural(0,10)","YMCL":"@natural(0,10)","DLCL":"@natural(0,10)","SLCL":"@natural(0,10)","YLZCL":"@natural(0,10)","YCZCL":"@natural(0,10)","HSCL":"@natural(0,10)","ZMLCL":"@natural(0,10)","MHCL":"@natural(0,10)","MLCL":"@natural(0,10)","GZCL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment107": "社会经济表",
+    "xzqh_shjjb_Array|20": [
+      {"GUID":"@id()","XZQHDXID":"@id()","ND":"@natural(0,20)","CZZRK":"@natural(0,20)","CZCZZRK":"@natural(0,10)","CZXCRK":"@natural(0,10)","HJRK":"@natural(0,10)","NYRK":"@natural(0,10)","FNYRK":"@natural(0,10)","CZRJZFMJ":"@natural(0,10)","GMJJZCZ":"@natural(0,10)","GMJJDYCYCZ":"@natural(0,10)","GMJJDECYCZ":"@natural(0,10)","GMJJDSCYCZ":"@natural(0,10)","NYSCZ":"@natural(0,10)","DYCYCSR":"@natural(0,10)","GDMJ":"@natural(0,10)","YDMJ":"@natural(0,10)","LDMJ":"@natural(0,10)","MCDMJ":"@natural(0,10)","SYMJ":"@natural(0,10)","JBNTMJ":"@natural(0,10)","QTMJ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment108": "农村耐用消费品",
+    "xzqh_ncnyxfp_Array|20": [
+      {"GUID":"@id()","XZQHDXID":"@id()","ND":"@natural(0,20)","QHMC":"@natural(0,20)","XYJ":"@natural(0,10)","DBX":"@natural(0,10)","KDJ":"@natural(0,10)","CYYJ":"@natural(0,10)","ZXC":"@natural(0,10)","MTC":"@natural(0,10)","DHJ":"@natural(0,10)","YDDH":"@natural(0,10)","CSDSJ":"@natural(0,10)","ZXJ":"@natural(0,10)","JYDN":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment109": "城市耐用消费品",
+    "xzqh_csnyxfp_Array|20": [
+      {"GUID":"@id()","XZQHDXID":"@id()","ND":"@natural(0,20)","QHMC":"@county()","MTC":"@natural(0,10)","ZLC":"@natural(0,10)","JYQC":"@natural(0,10)","XYJ":"@natural(0,10)","DBX":"@natural(0,10)","CSDSJ":"@natural(0,10)","JYDN":"@natural(0,10)","ZHYX":"@natural(0,10)","SXJ":"@natural(0,10)","ZXJ":"@natural(0,10)","GQ":"@natural(0,10)","QTZGDLQ":"@natural(0,10)","WBL":"@natural(0,10)","KDJ":"@natural(0,10)","LYRSQ":"@natural(0,10)","XDWJ":"@natural(0,10)","XWJ":"@natural(0,10)","JSQC":"@natural(0,10)","GDDH":"@natural(0,10)","YDDH":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment110": "单位基本属性",
+    "dw_dwjbsx_Array|20": [
+      {"GUID":"@id()","DWDXID":"@id()","DWMC":"@natural(0,20)","XZQHDXID":"@natural()","DXID":"@natural(0,10)","STBDXID":"@natural(0,10)","QYLX":"@natural(0,10)","ZZZCH":"@natural(0,10)","DZ":"@natural(0,10)","FDDBR":"@natural(0,10)","LXR":"@natural(0,10)","LXDH":"@natural(0,10)","YBHM":"@natural(0,10)","CZ":"@natural(0,10)","E-MAIL":"@natural(0,10)","WZ":"@natural(0,10)","ZCZJ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment111": "非法人组织基本信息",
+    "dw_ffrzzjbxx_Array|20": [
+      {"GUID":"@id()","DWDXID":"@id()","JGLB":"@natural(0,20)","JGJB":"@natural()","JGDZ":"@natural(0,10)","YB":"@natural(0,10)","DH":"@natural(0,10)","YX":"@natural(0,10)","LXR":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment112": "机关基本信息",
+    "dw_jgjbxx_Array|20": [
+      {"GUID":"@id()","DWDXID":"@id()","DWFZR":"@natural(0,20)","DWFZRLXDH":"@natural()","JGGG":"@natural(0,10)","LSGX":"@natural(0,10)","ZCHJ":"@natural(0,10)","JZCHJ":"@natural(0,10)","GDZCYZ":"@natural(0,10)","BNSRHJ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment113": "事业单位基本信息",
+    "dw_sydwjbxx_Array|20": [
+      {"GUID":"@id()","DWDXID":"@id()","CLSJ":"@natural(0,20)","DWLX":"@natural()","YYFYGLFYCWFYHJ":"@natural(0,10)","YYSJJFJ":"@natural(0,10)","BNYJZZS":"@natural(0,10)","GSYWSJ":"@natural(0,10)","SPHFWZC":"@natural(0,10)","ZGGZHFLF":"@natural(0,10)","JYSJ":"@natural(0,10)","YYWZC":"@natural(0,10)","GZFLZC":"@natural(0,10)","QTZJZC":"@natural(0,10)","FZHJ":"@natural(0,10)","NMCYRYHJ":"@natural(0,10)","GRSL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment114": "社团基本信息",
+    "dw_stjbxx_Array|20": [
+      {"GUID":"@id()","DWDXID":"@id()","CLSJ":"@natural(0,20)","FDDBR":"@natural()","DWFZR":"@natural(0,10)","DWFZRLXDH":"@natural(0,10)","YWZGDWMC":"@natural(0,10)","YWFW":"@natural(0,10)","HDDY":"@natural(0,10)","GDZCYZ":"@natural(0,10)","BNGDZCZJ":"@natural(0,10)","BNSRHJ":"@natural(0,10)","NMZCHJ":"@natural(0,10)","BNZCHJ":"@natural(0,10)","HJHSXS":"@natural(0,10)","RYFY":"@natural(0,10)","GRSL":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment115": "企业基本信息",
+    "dw_qyjbxx_Array|20": [
+      {"GUID":"@id()","DWDXID":"@id()","KYSJ":"@natural(0,20)","QYYYZT":"@natural()","DWFZR":"@natural(0,10)","FDDBR":"@natural(0,10)","GMJJXYDM":"@natural(0,10)","LSGX":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment116": "单位市场行为",
+    "dw_dwscxw_Array|20": [
+      {"GUID":"@id()","DWDXID":"@id()","XZQHDXID":"@natural(0,20)","XYPJJL":"@natural()","DWHJQK":"@natural(0,10)","GCHJQK":"@natural(0,10)","QTLHQK":"@natural(0,10)","TQGZQK":"@natural(0,10)","SSTRHLXW":"@natural(0,10)","WQMLXHTJWGXW":"@natural(0,10)","ZBWFFBGKDXW":"@natural(0,10)","QTBLXW":"@natural(0,10)","GZTSJCLQK":"@natural(0,10)","CSRXM":"@natural(0,10)","CSYJ":"@natural(0,10)","ZSRXM":"@natural(0,10)","ZSYJ":"@natural(0,10)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment117": "自然人基本属性",
+    "data_zrr_zrrjbsx|20": [
+      {"GUID":"@id()","ZRRDXID":"@id()","SFZH":"@natural(0,20)","SSGZJD":"@natural(0,20)","XM":"@natural(0,20)","XB":"@natural(0,20)","CSRQ":"@natural(0,20)","MZ":"@natural(0,20)","SFXH":"@natural(0,20)","XHSJ":"@natural(0,20)","XHYY":"@natural(0,20)","SSZYDL":"@natural(0,20)","XZQHDXID":"@natural(0,20)","DXID":"@natural(0,20)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment118": "活动参与人员",
+    "data_zrr_hdcyry|20": [
+      {"GUID":"@id()","ZRRDXID":"@id()","NL":"@natural(0,20)","DZ":"@natural(0,20)","LXFS":"@natural(0,20)","CSGZ":"@natural(0,20)","ZZ":"@natural(0,20)","PXXG":"@natural(0,20)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+    "comment119": "闸站工程基本属性",
+    "zz_zzgcjbsx_Array|20": [
+      {"GUID":"@id()","ZZGCDXID":"@id()","ZZGCBM":"@natural(0,100)","ZZGCMC":"@natural(0,100)","ZLJZRQ":"@natural(0,100)","SSXZQH":"@natural(0,100)","SZSKDXID":"@natural(0,100)","SZHLDXID":"@natural(0,100)","SZHPDXID":"@natural(0,100)","DXID":"@natural(0,100)","BZ_DXID":"@natural(0,100)","SZYDXID":"@natural(0,100)","STB_DXID":"@natural(0,100)","SYD_DXID":"@natural(0,100)","ZRRDXID":"@natural(0,100)","DW_DXID":"@natural(0,100)","LY_DXID":"@natural(0,100)","SZ_DXID":"@natural(0,100)","SJLY":"@cparagraph()","BZ":"@cparagraph()"}
+    ],
+
+    "comment8_1": "流域基本属性",
+    "lyjbArray|45": [
+    {"name":"金沙江","hxzhc":"1251","ly_level":"2级","ly_mj":"5215"}
+    ],
+
+    "comment8_2": "流域与行政区划关系",
+    "lyxzqhArray|45": [
+    {"name":"金沙江","xzqh":"拉萨市","bz":"123456","cj_time":"@datetime"}
+    ],
+
+    "comment8_3": "湖泊基本属性",
+    "hpsxArray|45": [
+    {"name":"鄱阳湖","longitude":"@integer(78, 100)","latitude":"@integer(26, 38)","hp_bulk":"@integer(700, 1000)","sm_area":"@integer(300, 1000)","shuxing":"淡水","water_depth":"@integer(20, 50)","big_depth":"@integer(50, 60)"}
+    ],
+
+    "comment8_4": "湖泊基本属性",
+    "hptzArray|45": [
+    {"name":"鄱阳湖","lymj":"@integer(78, 100)","ssw":"@integer(26, 38)","skr":"@integer(70, 500)","normal_xs":"@integer(30, 100)","normal_tx":"@integer(70, 500)","design_mj":"@integer(20, 50)","design_hs":"@integer(20, 50)","design_rj":"@integer(50, 60)","jhhs":"@integer(70, 500)","sczg":"@integer(30, 50)","sczd":"@integer(30, 50)","dczg":"@integer(30, 50)","dczd":"@integer(30, 50)"}
+    ],
+
+    "comment8_5": "湖泊社经基本情况",
+    "hpsjArray|45": [
+    {"name":"盐城湖","hqcz":"@integer(10, 30)","hqrk":"@integer(78, 100)","hqgd":"@integer(30, 100)","sjgg":"@integer(70, 500)","sjggmj":"@integer(20, 50)","djzg":"@integer(20, 50)","djzd":"@integer(50, 60)","whmj":"@integer(70, 500)"}
+    ],
+
+    "comment8_6": "湖泊汛限水位",
+    "hpxxArray|45": [
+    {"name":"鄱阳湖","xqxz":"@integer(10, 30)","time_start":"@datetime","time_end":"@datetime"}
+    ],
+
+    "comment8_7": "出湖水系",
+    "chsxArray|30": [
+    {"name":"阳澄湖","chhl":"拉萨河","chkzz":"巴塘","chsz":"水闸","sjhs":"@integer(20, 40)","sjll":"@integer(1000,1200)"}
+    ],
+
+    "comment8_8": "入湖水系",
+    "rhsxArray|30": [
+    {"name":"阳澄湖","rhhl":"拉萨河","rhkzz":"巴塘","rhsz":"水闸","jhmj":"@integer(50, 100)","sjhs":"@integer(20, 40)","sjll":"@integer(1000,1200)"}
+    ],
+
+    "comment8_9": "湖泊水位面积容积关系",
+    "hpswmjArray|30": [
+    {"name":"阳澄湖","sw":"@integer(20, 30)","mj":"@integer(50, 100)","rj":"@integer(50, 100)"}
+    ],
+
+    "comment8_10": "河流基本属性",
+    "hlsxArray|30": [
+    {"ly":"长江","hl":"拉萨河","szjm":"水准基面"}
+    ],
+
+    "comment8_11": "流域(水系)基本情况表",
+    "lyqkArray|30": [
+    {"ly":"长江","hy":"拉萨河","hygc":"@integer(20, 30)","zyqd":"拉萨","xyqd":"唐古拉山","hkwz":"纳木错","glcd":"@integer(300, 500)","syhc":"@integer(300, 500)","zyhc":"@integer(300, 500)","xyhc":"@integer(400, 500)","qmj":"@integer(300, 500)","symj":"@integer(100, 200)","zymj":"@integer(100, 200)","xymj":"@integer(100, 200)","lysq":"@integer(200, 300)","lyql":"@integer(200, 300)","lypy":"@integer(200, 300)","lyhp":"@integer(200, 300)","lygd":"@integer(200, 300)","lyrk":"@integer(100, 300)"}
+    ],
+
+    "comment8_12": "洪潮水面线表",
+    "hcsmxArray|30": [
+    {"hl":"拉萨河","dm":"拉萨河","lc":"@integer(20, 30)","hcpl_33":"@integer(20, 30)","hcpl_51":"@integer(20, 30)","hcpl_1":"@integer(20, 30)","hcpl_2":"@integer(30, 50)","hcpl_26":"@integer(30, 50)","hcpl_52":"@integer(30, 50)","hcpl_TM0":"@integer(40, 50)","hcpl_20":"@integer(30, 50)"}
+    ],
+
+    "comment8_13": "河流—河段表",
+    "hlhdArray|30": [
+    {"hl":"拉萨河","hd":"拉萨河","hdsjdd":"纳木错","hdxjdd":"当雄县","river_type":"长江","hlmj":"@integer(20, 30)","hdcd":"@integer(30, 50)","hcpjkd":"@integer(30, 50)","tdpjkd":"@integer(30, 50)","hcmj":"@integer(40, 50)","tdmj":"@integer(30, 50)","hdptll":"@integer(1000, 1200)","zdhk":"@integer(10, 20)","zxhk":"@integer(10, 20)"}
+    ],
+
+    "comment8_14": "河段行洪障碍登记表",
+    "hdzaArray|30": [
+    {"hd":"拉萨河","za":"拉萨河","zawz":"纳木错","yawz":"当雄县","zawmj":"@integer(20, 30)","zawkd":"@integer(30, 50)","zawgsmj":"@integer(30, 50)","qzjh":"清障计划","qzqk":"清障情况"}
+    ],
+
+    "comment8_15": "洪水传播时间表",
+    "hscbArray|30": [
+    {"hl":"拉萨河","hdc":"@integer(20, 30)","zdxl":"@integer(30, 50)","zxsj":"@integer(10, 20)","zdsj":"@integer(10, 20)","pjsj":"@integer(10, 30)"}
+    ],
+
+    "comment8_16": "测站基本属性",
+    "czsxArray|30": [
+    {"station_code":"@id()","station_name":"德阳水库 ","river_name":"拉萨河","sx":"拉萨河","ly":"雅鲁藏布江","longitude":"25","latitude":"40","address":"拉萨","jm_name":"基面名称","id":"行政区划ID","jm_gc":"基面高程","jm_xzz":"基面修正值","station_type":"测站类别","bx_level":"2级","jz_year":"@datetime()","sb_year":"@datetime()","lsdw":"水利信息中心","xxdw":"水利信息中心","jhdw":"水利信息中心","czab":"测站岸别","czfw":"测站方位","jl":"30km","js_area":"50000","pym":"deiyangshuiku"}
+    ],
+
+    "comment8_17": "河道防洪指标表",
+    "hdfhArray|30": [
+    {"station_code":"@id()","station_name":"德阳水库 ","zdgc":"@integer(20, 30)","ydgc":"@integer(20, 30)","jjsw":"@integer(20, 30)","jjll":"@integer(20, 30)","bzsw":"40","bzll":"@integer(20, 30)","ptll":"@integer(20, 30)","sczgsw":"@integer(20, 30)","zgswcxsj":"@datetime()","dczgsw":"@integer(20, 30)","dczgswcxsj":"@datetime()","sczdll":"@integer(20, 30)","zdllcxsj":"@datetime()","dczdll":"@integer(20, 30)","dczdllcxsj":"@datetime()","lszdhsl":"@integer(20, 30)","hslcxsj":"@datetime()","dmls":"@integer(20, 30)","dmlscxsj":"@datetime()","lszdsw":"@integer(20, 30)","zdswcxsj":"@datetime()","lszxll":"@integer(20, 30)","zxllcxsj":"@datetime()","gsw":"@integer(20, 30)","dll":"@integer(20, 30)","dsw":"@integer(20, 30)","xll":"@integer(20, 30)","start_sw":"@integer(20, 30)","start_ll":"@integer(20, 30)"}
+    ],
+
+    "comment8_18": "土壤埴情特征值表",
+    "trtzzArray|30": [
+    {"station_code":"@id()","station_name":"德阳水库 ","trlb":"土壤类别","trzd":"土壤质地","trjg":"土壤结构","trbz":"土壤比重","trgrz":"40","trkxd":"@integer(20, 30)","bhhsl":"@integer(20, 30)","tjcsl":"@integer(20, 30)","dwhsl":"@integer(20, 30)"}
+    ],
+
+    "comment8_19": "洪水频率分析参数表",
+    "hsplArray|30": [
+    {"station_code":"@id()","station_name":"德阳水库 ","dxn":"典型年","tjbl":"变量","pjz":"@integer(20, 30)","lcxs":"@integer(20, 30)","pcxs":"40","ksnf":"@datetime","jsnf":"@datetime","ybsl":"@integer(20, 30)"}
+    ],
+
+    "comment8_20": "水位流量关系曲线表",
+    "swllArray|30": [
+    {"station_code":"@id()","station_name":"德阳水库 ","qxmc":"曲线","qysj":"@datetime","dxh":"序号","sw":"@integer(20, 30)","ll":"40"}
+    ],
+
+    "comment8_21": "大断面测验成果表",
+    "ddmArray|30": [
+    {"station_code":"@id()","station_name":"德阳水库 ","scsj":"@datetime","cxh":"垂线号","qcab":"岸","qdj":"@integer(20, 30)","hdgc":"40"}
+    ],
+
+    "comment8_22": "库(湖)容曲线表",
+    "khqxArray|30": [
+    {"station_code":"@id()","station_name":"德阳水库 ","ksw":"@integer(20, 30)","xsl":"@integer(20, 30)","smmj":"@integer(20, 30)"}
+    ],
+
+    "comment8_23": "降水量表",
+    "jslArray|30": [
+    {"station_code":"@id()","station_name":"德阳水库 ","sdjsl":"@integer(20, 30)","rjsl":"@integer(20, 30)","weather":"晴朗","jsl_type":"大","cjfs":"采集方式"}
+    ],
+
+    "comment8_24": "降雪量表",
+    "jxlArray|30": [
+    {"station_code":"@id()","station_name":"德阳水库 ","jxsd":"@integer(20, 30)","jxmd":"@integer(20, 30)","cjfs":"采集方式"}
+    ],
+
+    "comment8_25": "冰雹表",
+    "bbArray|30": [
+    {"guid":"@id()","czdxid":"@id() ","czbm":"@id()","station_name":"德阳水库","sj":"@datetime","blzj":"@integer(20, 30)","jbls":"@integer(20, 30)","sjsm":"sjsm","cjfs":"采集方式","sjc":"@datetime","sjly":"","cjsj":"@datetime","zhgxsj":"@datetime"}
+    ]
+  }

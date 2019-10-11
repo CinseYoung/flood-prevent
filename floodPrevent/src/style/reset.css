@@ -1,0 +1,21 @@
+
+#statisticReport article, #statisticReport aside, #statisticReport details, #statisticReport figcaption, #statisticReport figure, 
+#statisticReport footer, #statisticReport header, #statisticReport hgroup, #statisticReport menu, #statisticReport nav, #statisticReport section {
+	display: block;
+}
+
+#statisticReport ol, #statisticReport ul {
+	list-style: none;
+}
+#statisticReport blockquote,#statisticReport  q {
+	quotes: none;
+}
+#statisticReport blockquote:before, #statisticReport blockquote:after,
+#statisticReport q:before, #statisticReport q:after {
+	content: '';
+	content: none;
+}
+#statisticReport table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

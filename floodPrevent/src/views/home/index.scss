@@ -1,0 +1,277 @@
+.home-wrap{
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-color: #f5f5f5;
+  .header{
+    background-color: #308ff1;
+    padding-left: 30px;
+    .logo {
+      height: 55px;
+      background: url("../../assets/logo.png") no-repeat left center;
+      background-size: 40px 30px;
+      display: flex;
+      align-items: center;
+      span {
+        display: flex;
+        float: left;
+        padding-left: 50px;
+        // padding-top: 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        color: white;
+        letter-spacing: 5px;
+        font-style:italic;
+      }
+    }
+  }
+  .user-name {
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 30px;
+    top: 6px;
+    .el-button--primary {
+        color: #fff;
+        background-color: transparent;
+        border-color: transparent;
+        i {
+          background: url("../../assets/home/admin.png") no-repeat center left;
+          line-height: 56px;
+          height: 56px;
+          padding-left: 30px;
+          float: left;
+          font-size: 16px;
+          font-style: normal;
+        }
+    }
+  }
+  .main-content{
+    padding: 10px 10px 0;
+    height: calc(100% - 20px);
+    width: 100%;
+    display: flex;
+    .block{
+      background-color: #fff;
+      border-radius: 2px;
+      padding: 10px 12px 10px 10px;
+      box-shadow: 0 0 1px 1px #d9d9d9;
+      color: #838282;
+      margin-bottom: 10px;
+      overflow: hidden;
+      header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .title{
+          display: flex;
+          align-items: center;
+          .title-icon{
+            display: inline-block;
+            width: 4px;
+            height: 16px;
+            background-color: #308ff1;
+            margin:0 10px;
+          }
+        }
+        .expand{
+          span{
+            font-size: 12px;
+          }
+        }
+      }
+      .content{
+        padding: 10px 10px 0;
+        display: block;
+        font-size: 12px;
+        overflow: auto;
+        height: calc(100% - 20px);
+        span{
+         margin:10px 8px 10px 0;
+        }
+        .persons{
+          padding-left: 45px;   
+        }
+        .item{
+          margin:10px 0 20px;
+          .item{
+            margin:4px 0;
+          }
+        }   
+            .event{
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              height: 34px;
+              .title{
+                text-overflow:ellipsis;
+                white-space:nowrap;overflow:hidden;
+              }
+              span{
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+              }
+              .danger,.success{
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                background-image: url('../../assets/home/danger.png');
+                margin-right: 10px;
+                background-size:14px 14px;
+                background-repeat: no-repeat;
+              }
+              .danger{
+                position: relative;
+                top: 2px;
+              }
+              .success{
+                width: 20px;
+                height: 14px;
+                background-image: url('../../assets/home/success.png');
+                background-size:20px 20px;
+                position: relative;
+                left: -2px;
+                margin-right: 2px;
+              }
+            }
+      }
+      .work-c{
+        padding-right: 0;
+        overflow: auto;
+        width: 100%;
+      }
+    }
+    .left,.center,.right{
+      margin: 0 5px;
+      height: 100%;
+      width: 24%;
+      .top{
+        height: 60%;
+      }
+      .bottom{
+        height: calc(40% - 55px);
+      }
+    }
+    .left{
+      margin-left: 0;
+      .top{
+        display: flex;
+        flex-direction: column;
+      }
+      .duty{
+        flex:1;
+        margin-bottom: 0;
+      }
+      .status{
+        display: block;
+        width: 60px;
+        text-align: right;
+      }
+    }
+    .center{
+      display: block;
+      flex: 1;
+    }
+    .right{
+      margin-right: 0;
+    }
+    .map{
+      background: none;
+      height: 434px;
+    }.yq{
+      height: 434px;
+    }
+    .wran{
+      .table{
+        margin-top: 16px;
+      }
+      .yq-list{
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+  .item-list {
+    list-style: none;
+    font-size: 10px;
+    color: rgb(51, 51, 51);
+    display: flex;
+    flex-wrap: wrap;
+   
+    li {
+      width: 20%;
+      text-align: center;
+      padding: 2% 0;
+      cursor: pointer;
+      font-size: 130%;
+    }
+  }
+  .item-icon {
+    overflow: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .expand{
+    cursor: pointer;
+  } 
+  
+  
+  ::-webkit-scrollbar-track-piece { //滚动条凹槽的颜色，还可以设置边框属性
+    background-color:#f8f8f8;
+    }
+    ::-webkit-scrollbar {//滚动条的宽度
+    width:4px;//横向滚动条
+    height:4px;//纵向滚动条
+  }
+  ::-webkit-scrollbar-thumb {//滚动条的设置
+    border-radius: 20px;
+    background-color:#dddddd;
+    background-clip:padding-box;
+    min-height:28px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background-color:#bbb;
+    }
+
+    .el-tabs__nav.is-top /deep/.el-tabs__item {
+      font-size: 14px;
+      padding: 0 12px;
+    }
+    .el-tabs__item.is-active {
+      color: #308ff1;
+    }
+    .el-tabs__active-bar {
+      background-color: #308ff1;
+    }
+    
+    .el-table th,.el-table td {
+      padding: 8px 0;
+    }
+    .el-table__body-wrapper::-webkit-scrollbar-track-piece {
+      //滚动条凹槽的颜色，还可以设置边框属性
+      background-color: #f8f8f8;
+    }
+    .el-table__body-wrapper::-webkit-scrollbar {
+      //滚动条的宽度
+      width: 4px; //横向滚动条
+      height: 4px; //纵向滚动条
+    }
+    .el-table__body-wrapper::-webkit-scrollbar-thumb {
+      //滚动条的设置
+      border-radius: 20px;
+      background-color: #dddddd;
+      background-clip: padding-box;
+      min-height: 28px;
+    }
+    .el-table__body-wrapper::-webkit-scrollbar-thumb:hover {
+      background-color: #bbb;
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "array": [
+    {
+      "type": "雨量预警",
+      "location": "福州市",
+      "detail": "详情",
+      "status": "This",
+      "result": "已处理"
+    },
+    {
+      "type": "水位预警",
+      "location": "福州市",
+      "detail": "详情",
+      "status": "This",
+      "result": "已处理"
+    },
+    {
+      "type": "气象预警",
+      "location": "福州市",
+      "detail": "详情",
+      "status": "This",
+      "result": "已处理"
+    },
+    {
+      "type": "流量预警",
+      "location": "福州市",
+      "detail": "详情",
+      "status": "This",
+      "result": "已处理"
+    }
+  ]
+}

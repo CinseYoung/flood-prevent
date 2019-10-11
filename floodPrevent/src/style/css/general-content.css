@@ -1,0 +1,96 @@
+
+  .general-wrap .content .table{
+    margin-top: 3px;
+    margin-left:5px;
+  }
+.general-wrap .content .gr-form-search {
+  background: #fff;
+  padding: 15px 0 0 5px;
+  margin-top: 3px;
+  border-bottom: solid 1px #d9d9d9;
+  padding-left: 17px;
+  margin-left: 5px;
+}
+
+.general-wrap .content .gr-datagrid {
+  height: 90%;
+  height: calc(100% - 110px);
+  background: #fff;
+  margin: 3px 0 3px 5px;
+  padding: 0 17px;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.general-wrap .content .gr-datagrid .bg-width {
+  width: 35%;
+  float: left;
+}
+
+.general-wrap .content .gr-datagrid .gr-tag {
+  line-height: 46px;
+}
+
+.general-wrap .content .gr-datagrid .gr-tag .data-title {
+  background: url("../../assets/data-title.png") no-repeat center left;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.general-wrap .content .gr-datagrid .gr-tag .el-button--primary {
+  color: #fff;
+  background: #409eff;
+  border-color: #409eff;
+  margin-left: 15px;
+}
+
+.general-wrap .content .gr-datagrid .gr-tag .el-button--primary:hover {
+  background-color: #c1daf3;
+  border-color: #79b8f8;
+  color: #000;
+}
+
+.general-wrap .content .gr-datagrid .xuanze {
+  float: left;
+  margin-top: 12px;
+}
+
+.general-wrap .content .gr-datagrid .xuanze .el-input--mini .el-input__inner {
+  width: 350px;
+}
+
+.general-wrap .content  .qiandao {
+  background-color: #ff7f50 !important;
+}
+
+.general-wrap .content .el-tabs--border-card {
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.general-wrap .content .gr-datagrid2{
+     height: 90%;
+     height: calc(100% - 110px);
+     background: #fff;
+     margin: 3px 0 3px 5px;
+     border-bottom: solid 1px #d9d9d9;
+}
+.general-wrap .content .gr-datagrid2 .gr-tag{
+  line-height: 46px;
+}
+
+.general-wrap .content .gr-datagrid2 .data-title{
+         background: url("../../assets/data-title.png") no-repeat center left;
+         padding-left: 20px;
+         font-size: 14px;
+}
+.general-wrap .content .gr-datagrid2 .el-button--primary{
+         color: #fff;
+         background: #409eff;
+         border-color: #409eff;
+         margin-left: 15px;
+}
+.general-wrap .content .gr-datagrid2 .el-button--primary:hover{
+         background-color: rgb(193, 218, 243);
+         border-color: rgb(121, 184, 248);
+         color: #000;
+}
+

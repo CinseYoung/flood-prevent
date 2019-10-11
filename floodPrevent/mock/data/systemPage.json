@@ -1,0 +1,156 @@
+{
+    "comment": "雨情汛情",
+    "xqarray|45": [
+        {
+            "station_code": "@id()",
+            "station_name": "德阳水库 ",
+            "type": "一类",
+            "bx_level": "2级",
+            "jsl": "@integer(0, 100)",
+            "ylyj": "90",
+            "sw": "@integer(0, 100)",
+            "swyj": "95",
+            "ll": "1581",
+            "st_time": "@datetime()",
+            "szdq": "拉萨",
+            "szhl": "拉萨河"
+        }
+    ],
+    "comment1": "应急响应",
+    "yjarray|45": [
+        {
+            "title": "应急响应",
+            "yjdj": "2级 ",
+            "content": "认真落实政府的工作政策，加强防洪意识，避免意外情况发生",
+            "start_time": "@datetime",
+            "is_handle|1": ["是", "否"],
+            "handle_step": "认真落实政府的工作政策，加强防洪意识，避免意外情况发生",
+            "handle_time": "@datetime",
+            "clr": "赵钱孙李"
+        }
+    ],
+    "comment2_1": "已发送",
+    "dx1array|45": [
+        {
+            "content": "认真落实政府的工作政策，加强防洪意识，避免意外情况发生",
+            "time": "@datetime",
+            "clr": "赵钱孙李"
+        }
+    ],
+    "comment3": "用户管理",
+    "yharray|45": [
+        {
+            "account": "@id()",
+            "name": "@cname",
+            "sex": "男",
+            "unit": "公安厅",
+            "area": "湖北武汉",
+            "mail": "@email",
+            "phone": "15698888888",
+            "status|1": ["正常", "异常"],
+            "handle_time": "@datetime"
+        }
+    ],
+    "comment4": "功能管理",
+    "gnarray|45": [
+        {
+            "id": "@id()",
+            "name": "汛期值守",
+            "code": "xqzs",
+            "status": "启用",
+            "className": "user.manager",
+            "ifauthorize": "否",
+            "createdate": "@datetime",
+            "children": [
+                {
+                    "id": "@id()",
+                    "name": "汛期值守",
+                    "code": "xqzs",
+                    "status": "启用",
+                    "className": "user.manager",
+                    "ifauthorize": "否",
+                    "createdate": "@datetime"
+                }
+            ]
+        }
+    ],
+    "comment2_2": "短信模板",
+    "dx2array|45": [
+        {
+            "mb_name": "模板名称",
+            "type": "一类",
+            "dxqm": "赵钱孙李",
+            "mb_content": "模板内容"
+        }
+    ],
+    "comment5": "电话记录",
+    "dharray|45": [
+        {
+            "jlr": "赵钱孙李",
+            "jl_time": "@datetime",
+            "content": "内容",
+            "ly": "https://m10.music.126.net/20190916192044/3c74f5e2c5658bf78a8a47a5b0e0e2af/yyaac/0453/0253/5408/396c27493559400e89e9cb97ba01d570.m4a"
+        }
+    ],
+    "comment6": "值班报告",
+    "bgarray|45": [
+        {
+            "jlr": "赵钱孙李",
+            "jl_time": "@datetime",
+            "content": "内容",
+            "title": "标题"
+        }
+    ],
+    "comment7": "公文管理",
+    "gwarray|45": [
+        {
+            "action|1": ["发送", "接收"],
+            "title": "标题",
+            "type": "内容",
+            "time": "@datetime",
+            "person": "人员"
+        }
+    ],
+    "comment8": "组织机构",
+    "zzjgarray|45": [
+        {
+            "dwmc": "自来水公司",
+            "sjdw": "水务局",
+            "ssdq": "东西湖区",
+            "dwlx": "政府单位",
+            "lxr": "张鑫旭",
+            "dz": "东西湖区临空港经济开发区",
+            "lxdh": "1586546968",
+            "cz": "1586546968",
+            "email": "13365846@qq.com"
+        }
+    ],
+    "comment9": "权限管理",
+    "qxarray|45": [
+        {
+            "ssds": "武汉市东西湖区",
+            "dw": "水务局",
+            "js": "管理员",
+            "gn": "控制系统"
+        }
+    ],
+    "comment10": "日志管理",
+    "logarray|45": [
+        {
+            "czyh": "廖雪峰",
+            "czsj": "@datetime",
+            "czip": "192.168.0.12",
+            "nr": "更改权限"
+        }
+    ],
+    "comment11": "子系统管理",
+    "zxtarray|45": [
+        {
+            "mc": "山洪防治系统",
+            "lx": "1类",
+            "tb": "山洪.png",
+            "fwdz": "192.168.1.112",
+            "gxsj": "@datetime"
+        }
+    ]
+}

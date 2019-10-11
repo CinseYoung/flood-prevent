@@ -1,0 +1,71 @@
+[{
+  "title": "基本情况",
+  "url": "/base/jb/xzqh",
+  "tp": "1",
+  "imgSrc": "assets/recode/mr.png",
+  "children":[
+    { "title": "行政区划", 
+      "url": "/base/jb/xzqh", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }, { "title": "防治区", 
+      "url": "/base/jb/fzq", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }, { "title": "危险区", 
+      "url": "/base/jb/wxq", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }, { "title": "防治区单位", 
+      "url": "/base/jb/fzqdw", 
+      "tp": "1", 
+      "imgSrc": "assets/recode/mr2.png"
+    }
+  ]
+}, {
+  "title": "社会经济",
+  "url": "/base/shjj",
+  "tp": "1",
+  "imgSrc": "assets/recode/mr.png"
+}, {
+  "title": "灾害情况",
+  "url": "/base/zhqk",
+  "tp": "1",
+  "imgSrc": "assets/recode/mr.png"
+}, {
+  "title": "预警设施",
+  "url": "/base/yjss",
+  "tp": "1",
+  "imgSrc": "assets/recode/mr.png"
+}, {
+  "title": "涉水工程",
+  "url": "/base/ssgc",
+  "tp": "1",
+  "imgSrc": "assets/recode/mr.png"
+}, {
+  "title": "水文气象",
+  "url": "/base/swqx",
+  "tp": "1",
+  "imgSrc": "assets/recode/mr.png"
+}, {
+  "title": "测量成果",
+  "url": "/base/clcg",
+  "tp": "1",
+  "imgSrc": "assets/recode/mr.png"
+}, {
+  "title": "暴雨洪水特性",
+  "url": "/base/byhstx",
+  "tp": "1",
+  "imgSrc": "assets/recode/mr.png"
+}, {
+  "title": "防洪能力",
+  "url": "/base/fhnl",
+  "tp": "1",
+  "imgSrc": "assets/recode/mr.png"
+}, {
+  "title": "预警指标",
+  "url": "/base/yjzb",
+  "tp": "1",
+  "imgSrc": "assets/recode/mr.png"
+}
+]

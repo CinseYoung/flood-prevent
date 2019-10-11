@@ -1,0 +1,49 @@
+{
+  "array": [
+    {
+      "province": "总计",
+      "city": "2",
+      "town": "9",
+      "floodArea": "723.3",
+      "landArea": "18762.57",
+      "population": 21.25,
+      "GDP": 200792.0
+    },
+    {
+      "province": "湖北省",
+      "city": "洪湖市",
+      "town": "黄家口镇",
+      "floodArea": "28.6",
+      "landArea": "916.34",
+      "population": 2.83,
+      "GDP": 200792.0
+    },
+    {
+      "province": "湖北省",
+      "city": "洪湖市",
+      "town": "乌林镇",
+      "floodArea": "67.36",
+      "landArea": "2110.16",
+      "population": 2.25,
+      "GDP": 18458.22
+    },
+    {
+      "province": "湖北省",
+      "city": "洪湖市",
+      "town": "乌林镇",
+      "floodArea": "67.36",
+      "landArea": "2110.16",
+      "population": 2.25,
+      "GDP": 18458.22
+    },
+    {
+      "province": "湖北省",
+      "city": "洪湖市",
+      "town": "乌林镇",
+      "floodArea": "67.36",
+      "landArea": "2110.16",
+      "population": 2.25,
+      "GDP": 18458.22
+    }
+  ]
+}

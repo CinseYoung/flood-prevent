@@ -1,0 +1,15 @@
+.gr-header-map-wrap{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .center {
+    flex: 1;
+    display: flex;
+    .content {
+      flex: 1;
+      overflow: hidden;
+      
+    }
+  }
+}
+ 

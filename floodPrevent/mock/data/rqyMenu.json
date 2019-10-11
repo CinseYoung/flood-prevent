@@ -1,0 +1,52 @@
+[
+    {
+        "title": "容器云管理",
+        "url": "/rqy/yygl",
+        "tp": "1",
+        "imgSrc": "assets/recode/mr.png",
+        "children": [
+            {
+                "title": "应用管理",
+                "url": "/rqy/yygl",
+                "tp": "1",
+                "imgSrc": "assets/recode/mr2.png"
+            },
+            {
+                "title": "服务管理",
+                "url": "/rqy/fwgl",
+                "tp": "1",
+                "imgSrc": "assets/recode/mr2.png"
+            },
+            {
+                "title": "镜像仓库",
+                "url": "/rqy/jxck",
+                "tp": "1",
+                "imgSrc": "assets/recode/mr2.png"
+            },
+            {
+                "title": "存储管理",
+                "url": "/rqy/ccgl",
+                "tp": "1",
+                "imgSrc": "assets/recode/mr2.png"
+            },
+            {
+                "title": "平台日志",
+                "url": "/rqy/ptrz",
+                "tp": "1",
+                "imgSrc": "assets/recode/mr2.png"
+            },
+            {
+                "title": "监控报警",
+                "url": "/rqy/jkbj",
+                "tp": "1",
+                "imgSrc": "assets/recode/mr2.png"
+            },
+            {
+                "title": "多租户管理",
+                "url": "/rqy/dzhgl",
+                "tp": "1",
+                "imgSrc": "assets/recode/mr2.png"
+            }
+        ]
+    }
+]
